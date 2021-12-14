@@ -1,3 +1,25 @@
+#musical_style_card{
+    float: right;
+    margin: 2em;
+
+}
+
+html {
+    background-color: #121212;
+}
+
+.h1 {
+    background-color: #121212;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: lightgray;
+}
+
+#checkbox_div{
+    margin: 1em;
+}
 svg {
     background-color: lightgrey;
 }
