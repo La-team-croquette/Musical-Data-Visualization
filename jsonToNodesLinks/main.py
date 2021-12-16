@@ -22,11 +22,14 @@ def main():
     for name in ("Tom", "Marion", "Victor"):
         nodes_links["nodes"].append({
             "id": name,
-            "group": "1"
+            "group": "1",
+            "type": "user",
+            "size": 15,
+            "force": -500
         })
 
     groups = {
-        "Marion": 1,
+        "Marion": 4,
         "Tom": 5,
         "Victor": 10
     }
@@ -38,7 +41,11 @@ def main():
                 g += groups[v_]
             nodes_links["nodes"].append({
                 "id": k[1],
-                "group": g
+                "artist": k[0],
+                "group": g,
+                "type": "music",
+                "size": 5,
+                "force": -10,
             })
             for name in v:
                 nodes_links["links"].append({

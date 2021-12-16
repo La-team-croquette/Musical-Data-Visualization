@@ -10,15 +10,15 @@ function ForceGraph({
                         nodeStroke = "#fff", // node stroke color
                         nodeStrokeWidth = 1.5, // node stroke width, in pixels
                         nodeStrokeOpacity = 1, // node stroke opacity
-                        nodeRadius = 5, // node radius, in pixels
-                        nodeStrength,
+                        nodeRadius = d => d.size, // node radius, in pixels
+                        nodeStrength = d => d.force,
                         linkSource = ({source}) => source, // given d in links, returns a node identifier string
                         linkTarget = ({target}) => target, // given d in links, returns a node identifier string
                         linkStroke = "#999", // link stroke color
                         linkStrokeOpacity = 0.6, // link stroke opacity
                         linkStrokeWidth = 1.5, // given d in links, returns a stroke width in pixels
                         linkStrokeLinecap = "round", // link stroke linecap
-                        linkStrength,
+                        linkStrength = 0.05,
                         colors = d3.schemeTableau10, // an array of color strings, for the node groups
                         width = 640, // outer width, in pixels
                         height = 400, // outer height, in pixels
@@ -35,8 +35,8 @@ function ForceGraph({
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
     // Replace the input nodes and links with mutable objects for the simulation.
-    nodes = d3.map(nodes, (_, i) => ({id: N[i]}));
-    links = d3.map(links, (_, i) => ({source: LS[i], target: LT[i]}));
+    // nodes = d3.map(nodes, (_, i) => ({id: N[i]}));
+    // links = d3.map(links, (_, i) => ({source: LS[i], target: LT[i]}));
 
     // Compute default domains.
     if (G && nodeGroups === undefined) nodeGroups = d3.sort(G);
@@ -91,6 +91,12 @@ function ForceGraph({
         return value !== null && typeof value === "object" ? value.valueOf() : value;
     }
 
+    var refs = {
+        "Marion": [-200, -200],
+        "Tom": [200, -200],
+        "Victor": [200, 200],
+    }
+
     function ticked() {
         link
             .attr("x1", d => d.source.x)
@@ -99,8 +105,26 @@ function ForceGraph({
             .attr("y2", d => d.target.y);
 
         node
-            .attr("cx", d => d.x)
-            .attr("cy", d => d.y);
+            // .attr("cx", d => d.x)
+            // .attr("cy", d => d.y)
+            .attr("cy", function (d) {
+                if (d.type === "user" && d.oncey !== "1") {
+                    d.oncey = "1";
+                    d.y = refs[d.id][1];
+                    return refs[d.id][1];
+                } else {
+                    return d.y;
+                }
+            })
+            .attr("cx", function (d) {
+                if (d.type === "user" && d.oncex !== "1") {
+                    d.oncex = "1";
+                    d.x = refs[d.id][0];
+                    return refs[d.id][0];
+                } else {
+                    return d.x;
+                }
+            });
     }
 
     function drag(simulation) {
@@ -130,17 +154,17 @@ function ForceGraph({
     return Object.assign(svg.node(), {scales: {color}});
 }
 
-d3.json("miserables.json").then(function (miserables) {
+d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
     const margin = {top: 30, right: 30, bottom: 30, left: 30},
         width = 1280,
         height = 720;
 
 
-    const chart = ForceGraph(miserables, {
+    const chart = ForceGraph(nodes_links, {
         nodeId: d => d.id,
         nodeGroup: d => d.group,
-        nodeTitle: d => `${d.id}\n${d.group}`,
+        nodeTitle: d => `${d.id}\n${d.artist}`,
         linkStrokeWidth: l => Math.sqrt(l.value),
         width: width,
         height: height,
