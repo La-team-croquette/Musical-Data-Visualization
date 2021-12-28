@@ -8,8 +8,8 @@ html {
     background-color: #121212;
 }
 
-.h1 {
-    background-color: #121212;
+#graph{
+    float: left;
 }
 
 .card {
@@ -21,5 +21,5 @@ html {
     margin: 1em;
 }
 svg {
-    background-color: lightgrey;
+    background-color: #121212;
 }
