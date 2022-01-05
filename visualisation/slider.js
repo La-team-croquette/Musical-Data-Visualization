@@ -130,7 +130,10 @@ function toString(date){
     let annee= new Date(date).getFullYear();
     return  jour.toString() + "/" + mois.toString() + "/" + annee.toString();
 }
-function creatchartbar (table_test) {
+function creatchartbar (table_test, width, height) {
+    const x = d3.scaleBand()
+        .range([0, width])
+        .padding(0.1);
     let w = table_test.length*10;
     let h = 100;
     let size = table_test.length
