@@ -42,9 +42,7 @@ d3.json("/data/Marion.json").then(json => {
             TABLE_DATA_JOUR.push(table);
             table = [];
             jourcurrent = new Date(date_current).getDate();
-            moiscurrent = new Date(date_current).getMonth() +1 ;
-            anneecurrent = new Date(date_current).getFullYear();
-            date_string = jourcurrent.toString() + "/" + moiscurrent.toString() + "/" + anneecurrent.toString();
+            date_string = toString(date_current);
             TABLE_JOUR.push(date_string);
             TABLE_JOUR_VAL.push(date_current);
             TABLE_TIME.push(time_tot);
