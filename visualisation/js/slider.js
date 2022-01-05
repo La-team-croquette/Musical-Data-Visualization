@@ -11,7 +11,7 @@ let TABLE_MOIS = [];
 let TABLE_DATA_MOIS = [];
 let TABLE_TIME_MOIS = [];
 
-d3.json("/data/Tom.json").then(json => {
+d3.json("../data/Tom.json").then(json => {
     //On définit comme date courrante la plus petite date du JSON
     let date_current = Date.parse(json[0]['endTime']);
     let jourcurrent = new Date(date_current).getDate();
