@@ -1,0 +1,30 @@
+svg {
+
+    width: 80%;
+}
+
+.ppp {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.just {
+    text-align: justify;
+}
+
+
+.card {
+    color: #363940;
+}
+
+#checkbox_div{
+
+    margin: 1em;
+}
+
+#musical_style_card{
+
+    float: right;
+    margin: 2em;
+
+}
