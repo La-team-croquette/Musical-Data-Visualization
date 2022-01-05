@@ -156,9 +156,9 @@ function ForceGraph({
 
 d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    const margin = {top: 30, right: 30, bottom: 30, left: 30},
-        width = 1280,
-        height = 720;
+    const margin = {top: 30, right: 0, bottom: 30, left: 0},
+        width = 1920,
+        height = 1080;
 
 
     const chart = ForceGraph(nodes_links, {
@@ -166,8 +166,8 @@ d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
         nodeGroup: d => d.group,
         nodeTitle: d => `${d.id}\n${d.artist}`,
         linkStrokeWidth: l => Math.sqrt(l.value),
-        width: width,
-        height: height,
+        width: window.innerWidth,
+        height: window.innerHeight,
         // invalidation // a promise to stop the simulation when the cell is re-run
     })
     d3.select("#graph")

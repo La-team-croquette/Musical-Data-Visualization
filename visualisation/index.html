@@ -1,15 +1,495 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unika - Responsive One Page HTML5 Template</title>
+    <meta name="description" content="Unika - Responsive One Page HTML5 Template">
+    <meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio"/>
+    <meta name="author" content="imransdesign.com">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <!-- Body font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <!-- Navbar font -->
+
+    <!-- Libs and Plugins CSS -->
+    <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="inc/animations/css/animate.min.css">
+    <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skin/cool-gray.css">
+    <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
+    <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+
+
+    <link rel="stylesheet" href="css/style_perso.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/graph.js"></script>
+
+
 </head>
-<body>
-<h1>Vizu</h1>
-<div id="graph"></div>
+
+<body data-spy="scroll" data-target="#main-navbar">
+<!--<div class="page-loader"></div>  &lt;!&ndash; Display loading image while page loads &ndash;&gt;-->
+<div class="body">
+
+
+    <!-- Begin text carousel intro section -->
+    <h1 class="ppp">La Team Croquette présente</h1>
+    <section id="text-carousel-intro-section" style="background-image: url(img/background.jpg);">
+        <h2 class="ppp">Musical Data Visualization</h2>
+        <div id="graph"></div>
+
+    </section>
+    <!-- End text carousel intro section -->
+
+
+    <!-- Begin about section -->
+    <section id="about-section" class="page bg-style1">
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h2>Les Données</h2>
+                    <div class="devider"></div>
+                    <p class="subtitle">Un peu d'information</p>
+                </div>
+            </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin rotate box-1 -->
+        <div class="rotate-box-1-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
+                            <span class="rotate-box-icon"><i class="fa fa-users"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Source ?</h4>
+                                <p class="just">Les données d'écoute sont directement extraites de nos informations
+                                    personnelles de nos comptes Spotify.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                            <span class="rotate-box-icon"><i class="fa fa-circle"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Les cerles ?</h4>
+                                <p class="just">Le graphique représente les liens entre les utilisateurs par les
+                                    musiques qu'ils écoutent. Une grande balle est une personne, et une plus petite une
+                                    musique. </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                            <span class="rotate-box-icon"><i class="fa fa-link"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Les liens ?</h4>
+                                <p class="just">Des personnes sont liées par une musique si elles l'ont toutes les deux
+                                    écoutées.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.6s">
+                            <span class="rotate-box-icon"><i class="fa fa-clock-o"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Depuis quand ?</h4>
+                                <p class="just">Les données regroupent un an d'écoute. C'est donc la fenêtre d'affichage
+                                    maximal.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div>
+        <!-- End rotate box-1 -->
+
+        <div class="extra-space-l"></div>
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h4>Répartition des données</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin Our Skills -->
+        <div class="our-skills">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
+                            <div class="progress-lebel">
+                                <h6>Graph genre</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 75%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="skill-bar wow slideInRight" data-wow-delay="0.2s">
+                            <div class="progress-lebel">
+                                <h6>Graph temps</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 85%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="skill-bar wow slideInLeft" data-wow-delay="0.4s">
+                            <div class="progress-lebel">
+                                <h6>Graph nombre musiques</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 95%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="skill-bar wow slideInRight" data-wow-delay="0.4s">
+                            <div class="progress-lebel">
+                                <h6>Graph nombre musiques</h6>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 70%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div>
+        <!-- End Our Skill -->
+    </section>
+    <!-- End about section -->
+
+
+    <!-- Begin counter up -->
+    <section id="counter-section">
+        <div id="counter-up-trigger" class="counter-up text-white parallax" data-stellar-background-ratio="0.5"
+             style="background-image: url(img/facts.jpg);">
+            <div class="cover"></div>
+            <!-- Begin page header-->
+            <div class="page-header-wrapper">
+                <div class="container">
+                    <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <h2>Faits intéressants</h2>
+                        <div class="devider"></div>
+                        <p class="subtitle">Sur les données</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End page header-->
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="fact text-center col-md-3 col-sm-6">
+                        <div class="fact-inner">
+                            <i class="fa fa-music fa-3x"></i>
+                            <div class="extra-space-l"></div>
+                            <span class="counter">6666</span>
+                            <p class="lead">Nombre de morceaux uniques</p>
+                        </div>
+                    </div>
+
+                    <div class="fact text-center col-md-3 col-sm-6">
+                        <div class="fact-inner">
+                            <i class="fa fa-user fa-3x"></i>
+                            <div class="extra-space-l"></div>
+                            <span class="counter">350</span>
+                            <p class="lead">Nombre d'artistes uniques</p>
+                        </div>
+                    </div>
+
+                    <div class="fact text-center col-md-3 col-sm-6">
+                        <div class="fact-inner">
+                            <i class="fa fa-clock-o fa-3x"></i>
+                            <div class="extra-space-l"></div>
+                            <span class="counter">456</span>h
+                            <p class="lead">Temps d'écoute total</p>
+                        </div>
+                    </div>
+
+                    <div class="fact last text-center col-md-3 col-sm-6">
+                        <div class="fact-inner">
+                            <i class="fa fa-users fa-3x"></i>
+                            <div class="extra-space-l"></div>
+                            <span class="counter">123</span>
+                            <p class="lead">Morceaux en commun</p>
+                        </div>
+                    </div>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div>
+    </section>
+    <!-- End counter up -->
+
+
+    <!-- Begin Services -->
+    <section id="services-section" class="page text-center">
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                    <h2>Des trucs en plus</h2>
+                    <div class="devider"></div>
+                    <p class="subtitle">Je sais pas quoi</p>
+                </div>
+            </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin roatet box-2 -->
+        <div class="rotate-box-2-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0">
+                            <span class="rotate-box-icon"><i class="fa fa-mobile"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Tinky-Winky</h4>
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.2s">
+                            <span class="rotate-box-icon"><i class="fa fa-pie-chart"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Dipsy</h4>
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.4s">
+                            <span class="rotate-box-icon"><i class="fa fa-cloud"></i></span>
+                            <div class="rotate-box-info">
+                                <h4> Laa Laa</h4>
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <a href="#" class="rotate-box-2 square-icon text-center wow zoomIn" data-wow-delay="0.6s">
+                            <span class="rotate-box-icon"><i class="fa fa-pencil"></i></span>
+                            <div class="rotate-box-info">
+                                <h4>Po</h4>
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+
+            <div class="container">
+                <!-- Cta Button -->
+                <div class="extra-space-l"></div>
+                <div class="text-center">
+                    <a class="btn btn-default btn-lg-xl" href="http://www.imransdesign.com/" target="_blank"
+                       role="button">Large Button</a>
+                </div>
+            </div> <!-- /.container -->
+        </div>
+        <!-- End rotate-box-2 -->
+    </section>
+    <!-- End Services -->
+
+
+    <!-- Begin team-->
+    <section id="team-section" class="page">
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+            <div class="container">
+                <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                    <h2>La Team Croquette</h2>
+                    <div class="devider"></div>
+                    <p class="subtitle">Voici les experts</p>
+                </div>
+            </div>
+        </div>
+        <!-- End page header-->
+        <div class="container">
+            <div class="row">
+                <div class="team-items">
+                    <div class="col-md-2">
+                        <div class="team-container wow bounceIn" data-wow-delay="0.2s">
+                            <div class="team-item">
+                                <div class="team-triangle">
+                                    <div class="content">
+                                        <img src="img/team/2.png" alt="title"/>
+                                        <div class="team-hover text-center">
+                                            <i class="fa fa-male"></i>
+                                            <p>Jeremy Kritikos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="team-container wow bounceIn" data-wow-delay="0.3s">
+                            <div class="team-item">
+                                <div class="team-triangle">
+                                    <div class="content">
+                                        <img src="img/team/3.png" alt="title"/>
+                                        <div class="team-hover text-center">
+                                            <i class="fa fa-female"></i>
+                                            <p>Marion Vertessen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="team-container wow bounceIn" data-wow-delay="0.4s">
+                            <div class="team-item">
+                                <div class="team-triangle">
+                                    <div class="content">
+                                        <img src="img/team/4.png" alt="title"/>
+                                        <div class="team-hover text-center">
+                                            <i class="fa fa-male"></i>
+                                            <p>Tom Montauriol</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="team-container wow bounceIn" data-wow-delay="0.5s">
+                            <div class="team-item">
+                                <div class="team-triangle">
+                                    <div class="content">
+                                        <img src="img/team/5.png" alt="title"/>
+                                        <div class="team-hover text-center">
+                                            <i class="fa fa-male"></i>
+                                            <p>Victor Favre</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End team-->
+
+
+    <!-- Begin footer -->
+    <footer class="text-off-white">
+        <div class="footer-top">
+            <div class="container">
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>A Propos</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">Tout sur le projet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow bounceInLeft" data-wow-delay="0.4s">
+
+                    <div class="col-sm-6 col-md-4"></div>
+
+                    <div class="col-sm-6 col-md-4">
+                        <h4>Data Vizualisation</h4>
+                        <p class="just">Projet réalisé dans le cadre de l'UE "Visualisation interactive de
+                            données". <br/>
+                            Université Claude Bernard Lyon 1, Master 2 Intelligence Artificielle.<br/>
+                            2021-2022.</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4"></div>
+
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div>
+
+    </footer>
+    <!-- End footer -->
+
+    <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+
+</div><!-- body ends -->
+
+
+<!-- Plugins JS -->
+<script src="inc/jquery/jquery-1.11.1.min.js"></script>
+<script src="inc/bootstrap/js/bootstrap.min.js"></script>
+<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="inc/stellar/js/jquery.stellar.min.js"></script>
+<script src="inc/animations/js/wow.min.js"></script>
+<script src="inc/waypoints.min.js"></script>
+<script src="inc/isotope.pkgd.min.js"></script>
+<!--<script src="inc/classie.js"></script>-->
+<script src="inc/jquery.easing.min.js"></script>
+<script src="inc/jquery.counterup.min.js"></script>
+<script src="inc/smoothscroll.js"></script>
+
+<!-- Theme JS -->
+<script src="js/theme.js"></script>
 
 </body>
+
+
 </html>
