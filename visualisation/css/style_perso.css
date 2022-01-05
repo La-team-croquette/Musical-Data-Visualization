@@ -38,3 +38,17 @@ svg {
     position: absolute;
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
+
+div.tooltip {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
