@@ -1,6 +1,10 @@
 svg {
+}
 
-    width: 80%;
+#graph {
+    /*background-color: rgba(100, 0, 0, 0.2);*/
+    /*width: 100%;*/
+
 }
 
 .ppp {
@@ -17,14 +21,20 @@ svg {
     color: #363940;
 }
 
-#checkbox_div{
-
+#checkbox_div {
     margin: 1em;
 }
 
-#musical_style_card{
-
-    float: right;
+#musical_style_card {
     margin: 2em;
+    position: absolute;
+    right: 0;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+}
 
+#filter_date {
+    float: left;
+    margin: 2em;
+    position: absolute;
+    /*background-color: rgba(100, 0, 0, 0.2);*/
 }

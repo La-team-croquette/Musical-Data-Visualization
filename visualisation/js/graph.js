@@ -156,7 +156,7 @@ function ForceGraph({
 
 d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    const margin = {top: 30, right: 0, bottom: 30, left: 0},
+    const margin = {top: 0, right: 0, bottom: 30, left: 0},
         width = 1920,
         height = 1080;
 
