@@ -1,6 +1,6 @@
 svg {
-    background-color: rgba(0, 0, 0, 0);
-    width: 100%;
+
+    width: 80%;
 }
 
 .ppp {
@@ -10,4 +10,21 @@ svg {
 
 .just {
     text-align: justify;
+}
+
+
+.card {
+    color: #363940;
+}
+
+#checkbox_div{
+
+    margin: 1em;
+}
+
+#musical_style_card{
+
+    float: right;
+    margin: 2em;
+
 }

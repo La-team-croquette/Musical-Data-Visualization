@@ -57,6 +57,8 @@ let checkboxes = []
 
 
 function eventCheckbox(_checkbox){
+
+
     if (_checkbox.checked) {
         stylesToFilter.push(_checkbox.value)
     }
