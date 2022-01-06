@@ -18,7 +18,7 @@ with open(path + '\\in_formating_json.json', encoding='utf8') as jsonFile:
     for e in json_merged:
         list_temp = []
         if e['genres'] == None:
-            e['genres'] = 'empty'
+            e['genres'] = 'other'
             continue
         else:
             flag = False
