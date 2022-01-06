@@ -19,15 +19,19 @@ def main():
             data[key] = {
                 "listeners": [],
                 "msTotal": 0,
-                "endTimes": [],
+                "endTimes": {},
                 "genres": []
             }
         if d["listener"] not in data[key]["listeners"]:
             data[key]["listeners"].append(d["listener"])
-            data[key]["endTimes"].append(d["endTime"])
             data[key]["msTotal"] += d["msPlayed"]
             data[key]["genres"].extend(d["genres"])
             data[key]["genres"] = list(set(data[key]["genres"]))
+
+        if d["listener"] not in data[key]["endTimes"]:
+            data[key]["endTimes"][d["listener"]] = []
+
+        data[key]["endTimes"][d["listener"]].append(d["endTime"])
 
     for name in ("Tom", "Marion", "Victor"):
         nodes_links["nodes"].append({
@@ -49,6 +53,7 @@ def main():
             g = 0
             for v_ in v["listeners"]:
                 g += groups[v_]
+
             nodes_links["nodes"].append({
                 "id": k[1],
                 "artist": k[0],
