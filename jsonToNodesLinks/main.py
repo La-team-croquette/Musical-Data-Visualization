@@ -2,7 +2,8 @@ import json
 
 
 def main():
-    with open("../data/all_data.json") as f:
+    # with open("../data/all_data.json") as f:
+    with open("../data/formated_json.json") as f:
         all_data = json.load(f)
 
     nodes_links = {
@@ -15,9 +16,18 @@ def main():
     for d in all_data:
         key = (d['artistName'], d['trackName'])
         if key not in data:
-            data[key] = []
-        if d["listener"] not in data[key]:
-            data[key].append(d["listener"])
+            data[key] = {
+                "listeners": [],
+                "msTotal": 0,
+                "endTimes": [],
+                "genres": []
+            }
+        if d["listener"] not in data[key]["listeners"]:
+            data[key]["listeners"].append(d["listener"])
+            data[key]["endTimes"].append(d["endTime"])
+            data[key]["msTotal"] += d["msPlayed"]
+            data[key]["genres"].extend(d["genres"])
+            data[key]["genres"] = list(set(data[key]["genres"]))
 
     for name in ("Tom", "Marion", "Victor"):
         nodes_links["nodes"].append({
@@ -35,9 +45,9 @@ def main():
     }
 
     for k, v in data.items():
-        if len(v) >= 2:
+        if len(v["listeners"]) >= 2:
             g = 0
-            for v_ in v:
+            for v_ in v["listeners"]:
                 g += groups[v_]
             nodes_links["nodes"].append({
                 "id": k[1],
@@ -46,8 +56,11 @@ def main():
                 "type": "music",
                 "size": 5,
                 "force": -10,
+                "genres": v["genres"],
+                "endTimes": v["endTimes"],
+                "msTotal": v["msTotal"],
             })
-            for name in v:
+            for name in v["listeners"]:
                 nodes_links["links"].append({
                     "source": name,
                     "target": k[1],

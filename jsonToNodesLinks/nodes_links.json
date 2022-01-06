@@ -22,1492 +22,21 @@
       "force": -500
     },
     {
-      "id": "Mr. Jack",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Stupeflip vite !!!",
-      "artist": "Stupeflip",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Bohemian Rhapsody - Remastered 2011",
-      "artist": "Queen",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Antidote",
-      "artist": "Stupeflip",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "American Idiot",
-      "artist": "Green Day",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Clair de Lune",
-      "artist": "Rousseau",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Moonlight Sonata (3rd Movement)",
-      "artist": "Rousseau",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Sonne",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Engel",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Heart-Shaped Box",
-      "artist": "Nirvana",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "1000\u00b0C",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Pretender",
-      "artist": "Foo Fighters",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Oui ou non",
-      "artist": "Ang\u00e8le",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Hit Sale (feat. Rom\u00e9o Elvis)",
-      "artist": "Therapie TAXI",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Have You Ever Seen The Rain",
-      "artist": "Creedence Clearwater Revival",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Du hast",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Violent Pornography",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Raining Blood",
-      "artist": "Slayer",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ich will",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Smells Like Teen Spirit",
-      "artist": "Nirvana",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Come As You Are",
-      "artist": "Nirvana",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Roulette",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "DEUTSCHLAND",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Sky Is Over",
-      "artist": "Serj Tankian",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Trop beau",
-      "artist": "Lomepal",
-      "group": 19,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Yeux disent",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Flash",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Regarde-moi",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Paradise (feat. Lomepal)",
-      "artist": "Lefa",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "\u00c9videmment",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Fly Me to the Moon",
-      "artist": "GBSN",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Sound of Silence",
-      "artist": "TheDooo",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ascend",
-      "artist": "TheDooo",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Hallelujah",
-      "artist": "TheDooo",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "J't'emm\u00e8ne au vent",
-      "artist": "Louise Attaque",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Bienvenue chez moi",
-      "artist": "Bigflo & Oli",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Plus rien ne m'\u00e9tonne",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "A Little Messed Up",
-      "artist": "june",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "London Calling - Remastered",
-      "artist": "The Clash",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Dance Monkey",
-      "artist": "Tones And I",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Through The Fire And Flames",
-      "artist": "DragonForce",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Highway to Hell",
-      "artist": "AC/DC",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "If Eternity Should Fail",
-      "artist": "Iron Maiden",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Inachev\u00e9s",
-      "artist": "Casseurs Flowters",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "We Will Rock You - Remastered 2011",
-      "artist": "Queen",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ils sont cools",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Never Gonna Give You Up",
-      "artist": "Rick Astley",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Blinding Lights",
-      "artist": "The Weeknd",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Attack",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Lonely Day",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Basket Case",
-      "artist": "Green Day",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Feuer frei!",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "You're Gonna Go Far, Kid",
-      "artist": "The Offspring",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Symphony Of Destruction",
-      "artist": "Megadeth",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Fuck the System",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Trooper - 2015 Remaster",
-      "artist": "Iron Maiden",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Kids Aren't Alright",
-      "artist": "The Offspring",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Raelsan",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Balance ton quoi",
-      "artist": "Ang\u00e8le",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Tout oublier",
-      "artist": "Ang\u00e8le",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ta reine",
-      "artist": "Ang\u00e8le",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Back In Black",
-      "artist": "AC/DC",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Suicide social",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Soldiers Of The Wastelands",
-      "artist": "DragonForce",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Cry Thunder",
-      "artist": "DragonForce",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Prayer Of The Refugee",
-      "artist": "Rise Against",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Fly Me To The Moon",
-      "artist": "Frank Sinatra",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Aerials",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Empty Walls",
-      "artist": "Serj Tankian",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "The Beautiful People",
-      "artist": "Marilyn Manson",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Run to the Hills - 2015 Remaster",
-      "artist": "Iron Maiden",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "AMERIKA",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Rape Me",
-      "artist": "Nirvana",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "B.Y.O.B.",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Chop Suey!",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Hypnotize",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La mort a du go\u00fbt",
-      "artist": "Bekar",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Soleil noir",
-      "artist": "47ter",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "D\u00e9saccord\u00e9",
-      "artist": "Vald",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Pi\u00e8ces d\u00e9tach\u00e9es",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Enter Sandman",
-      "artist": "Metallica",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Fury Of The Storm",
-      "artist": "DragonForce",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Jusqu'o\u00f9 elle m'aime (feat. Nemir)",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La marelle",
-      "artist": "KIKESA",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Elle viendra quand m\u00eame",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "On aboie en silence",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Paradis noir (feat. DJ Pone)",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Le mal est fait",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Scanner (feat. L\u00e9a Castel)",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Aujourd'hui",
-      "artist": "Bigflo & Oli",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Regarde-moi",
-      "artist": "Moji x Sboy",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Si seul",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Le chant des sir\u00e8nes",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Finir mal",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Chute d'\u00e9toiles",
-      "artist": "Suzuya",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Retourne d'o\u00f9 tu viens",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Qui dit mieux (feat. Orelsan, Vald & Suikon Blaz AD)",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "San",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Feu de bois",
-      "artist": "Damso",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "D\u00e9chir\u00e9 (feat. Orelsan)",
-      "artist": "Gringe",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Dans mon \u00e9l\u00e9ment",
-      "artist": "Georgio",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La v\u00e9rit\u00e9",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Promesses",
-      "artist": "Bigflo & Oli",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La pluie (feat. Stromae)",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Probl\u00e8mes",
-      "artist": "PLK",
-      "group": 9,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "X-men",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Rose",
-      "artist": "KIKESA",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Mein Herz brennt",
-      "artist": "Rammstein",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Question!",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Another Brick In The Wall, Pt. 2 - 2011 Remastered Version",
-      "artist": "Pink Floyd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Comfortably Numb - 2011 Remastered Version",
-      "artist": "Pink Floyd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Money - 2011 Remastered Version",
-      "artist": "Pink Floyd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Time - 2011 Remastered Version",
-      "artist": "Pink Floyd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Rechute",
-      "artist": "Vald",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Toxicity",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Radio/Video",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Lost In Hollywood",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Sugar",
-      "artist": "System Of A Down",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "King For A Day",
-      "artist": "Pierce The Veil",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Hotel California - 2013 Remaster",
-      "artist": "Eagles",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "21 Guns",
-      "artist": "Green Day",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Sweet Home Alabama",
-      "artist": "Lynyrd Skynyrd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Breathe (In The Air) - 2011 Remastered Version",
-      "artist": "Pink Floyd",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Making A Fire",
-      "artist": "Foo Fighters",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Waiting On A War",
-      "artist": "Foo Fighters",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Gangsta's Paradise",
-      "artist": "Coolio",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Des trous dans la t\u00eate",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La petite marchande de porte-clefs",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Double vie",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Montfermeil",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Un message imb\u00e9cile",
-      "artist": "2TH",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ne me ram\u00e8ne pas",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "M\u00f4mes",
-      "artist": "Lomepal",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "God Save The Queen",
-      "artist": "Sex Pistols",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Miroir des limbes",
-      "artist": "Yuzmv",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "You're Going Down",
-      "artist": "Sick Puppies",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Another Day Of Sun",
-      "artist": "La La Land Cast",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Someone In The Crowd",
-      "artist": "Emma Stone",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Mia & Sebastian\u2019s Theme",
-      "artist": "Justin Hurwitz",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Herman\u2019s Habit",
-      "artist": "Justin Hurwitz",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "A Lovely Night",
-      "artist": "Ryan Gosling",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "City Of Stars",
-      "artist": "Ryan Gosling",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Millions",
-      "artist": "No Limit",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Paint It, Black - Mono",
-      "artist": "The Rolling Stones",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "You Should Be Dancing",
-      "artist": "Dee Gees",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "In Bloom",
-      "artist": "Nirvana",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "J'attends",
-      "artist": "Ben Mazu\u00e9",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La tribu de Dana",
-      "artist": "Manau",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Shy Away",
-      "artist": "Twenty One Pilots",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Sultans Of Swing",
-      "artist": "Dire Straits",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Pierre, feuille, papier, ciseaux",
-      "artist": "Columbine",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Les pr\u00e9lis",
-      "artist": "Columbine",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Temps \u00e9lectrique",
-      "artist": "Columbine",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
       "id": "Fever",
       "artist": "Dua Lipa",
       "group": 19,
       "type": "music",
       "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Enfants terribles",
-      "artist": "Columbine",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Poup\u00e9e Russe",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ahou",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Putain d'\u00e9poque",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Had\u00e8s (feat. Lujipeka)",
-      "artist": "Luv Resval",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Pas \u00e0 ma place",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ao\u00fbt 2008",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Palapalaba",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Le Soleil",
-      "artist": "Lujipeka",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "L'odeur de l'essence",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ne fuis pas",
-      "artist": "2TH",
-      "group": 19,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Dans la temp\u00eate",
-      "artist": "DOXX",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Probl\u00e8mes",
-      "artist": "2TH",
-      "group": 19,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Shonen",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "La Qu\u00eate",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ensemble",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Casseurs Flowters Infinity",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Du propre",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "B\u00e9b\u00e9boa",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "R\u00eave mieux",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Seul avec du monde autour",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Manifeste",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Jour meilleur",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Baise le monde",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Dernier verre",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Ath\u00e9na",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Civilisation",
-      "artist": "Orelsan",
-      "group": 15,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Plus tard",
-      "artist": "47ter",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "C\u00f4te Ouest",
-      "artist": "47ter",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Mood (feat. iann dior)",
-      "artist": "24kGoldn",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "JUSQU'ICI TOUT VA BIEN",
-      "artist": "GIMS",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Prisoner (feat. Dua Lipa)",
-      "artist": "Miley Cyrus",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
+      "force": -10,
+      "genres": [
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-18 15:53",
+        "2021-10-25 08:51",
+        "2020-12-06 19:40"
+      ],
+      "msTotal": 394625
     },
     {
       "id": "D\u00c1KITI",
@@ -1515,39 +44,49 @@
       "group": 14,
       "type": "music",
       "size": 5,
-      "force": -10
+      "force": -10,
+      "genres": [
+        "rap",
+        "reggae"
+      ],
+      "endTimes": [
+        "2020-12-18 16:02",
+        "2020-12-06 20:26"
+      ],
+      "msTotal": 369719
     },
     {
-      "id": "Tchin tchin",
-      "artist": "2TH",
+      "id": "Mood (feat. iann dior)",
+      "artist": "24kGoldn",
       "group": 14,
       "type": "music",
       "size": 5,
-      "force": -10
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-18 16:17",
+        "2020-12-06 19:58"
+      ],
+      "msTotal": 141244
     },
     {
-      "id": "Vivre",
-      "artist": "47ter",
-      "group": 14,
+      "id": "Blinding Lights",
+      "artist": "The Weeknd",
+      "group": 9,
       "type": "music",
       "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Prosecco",
-      "artist": "Petit Voyou",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
-    },
-    {
-      "id": "Immortel",
-      "artist": "Petit Voyou",
-      "group": 14,
-      "type": "music",
-      "size": 5,
-      "force": -10
+      "force": -10,
+      "genres": [
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-18 16:42",
+        "2020-12-02 21:21"
+      ],
+      "msTotal": 216451
     },
     {
       "id": "Damdamdeo",
@@ -1555,11 +94,3378 @@
       "group": 14,
       "type": "music",
       "size": 5,
-      "force": -10
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 12:22",
+        "2021-05-11 08:59"
+      ],
+      "msTotal": 189989
+    },
+    {
+      "id": "Balance ton quoi",
+      "artist": "Ang\u00e8le",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "variete",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:41",
+        "2020-12-09 13:27"
+      ],
+      "msTotal": 378960
+    },
+    {
+      "id": "Tout oublier",
+      "artist": "Ang\u00e8le",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "variete",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:45",
+        "2020-12-09 13:33"
+      ],
+      "msTotal": 28530
+    },
+    {
+      "id": "Oui ou non",
+      "artist": "Ang\u00e8le",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "variete",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:45",
+        "2020-11-28 11:36"
+      ],
+      "msTotal": 197210
+    },
+    {
+      "id": "Ta reine",
+      "artist": "Ang\u00e8le",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "variete",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:46",
+        "2020-12-09 15:08"
+      ],
+      "msTotal": 214825
+    },
+    {
+      "id": "Promesses",
+      "artist": "Bigflo & Oli",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:47",
+        "2021-01-04 15:30"
+      ],
+      "msTotal": 1735
+    },
+    {
+      "id": "Prisoner (feat. Dua Lipa)",
+      "artist": "Miley Cyrus",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 14:47",
+        "2020-12-06 20:17"
+      ],
+      "msTotal": 196128
+    },
+    {
+      "id": "Ne fuis pas",
+      "artist": "2TH",
+      "group": 19,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-29 14:51",
+        "2021-11-18 19:06",
+        "2020-12-29 17:20"
+      ],
+      "msTotal": 657730
+    },
+    {
+      "id": "Probl\u00e8mes",
+      "artist": "PLK",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 15:00",
+        "2021-01-05 14:47"
+      ],
+      "msTotal": 189346
+    },
+    {
+      "id": "D\u00e9saccord\u00e9",
+      "artist": "Vald",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 15:13",
+        "2020-12-19 15:54"
+      ],
+      "msTotal": 214826
+    },
+    {
+      "id": "Hit Sale (feat. Rom\u00e9o Elvis)",
+      "artist": "Therapie TAXI",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 15:17",
+        "2020-11-28 13:55"
+      ],
+      "msTotal": 368800
+    },
+    {
+      "id": "C\u00f4te Ouest",
+      "artist": "47ter",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop",
+        "variete"
+      ],
+      "endTimes": [
+        "2020-12-29 15:38",
+        "2020-11-28 13:42"
+      ],
+      "msTotal": 466626
+    },
+    {
+      "id": "Trop beau",
+      "artist": "Lomepal",
+      "group": 19,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-29 16:02",
+        "2020-11-29 11:14",
+        "2021-01-16 13:01"
+      ],
+      "msTotal": 662262
+    },
+    {
+      "id": "Dance Monkey",
+      "artist": "Tones And I",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop"
+      ],
+      "endTimes": [
+        "2020-12-29 16:24",
+        "2020-12-01 06:44"
+      ],
+      "msTotal": 214405
+    },
+    {
+      "id": "Immortel",
+      "artist": "Petit Voyou",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-09 21:07",
+        "2021-02-27 17:40"
+      ],
+      "msTotal": 287974
+    },
+    {
+      "id": "Prosecco",
+      "artist": "Petit Voyou",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-09 21:10",
+        "2021-02-27 17:09"
+      ],
+      "msTotal": 379428
+    },
+    {
+      "id": "Vivre",
+      "artist": "47ter",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop",
+        "variete"
+      ],
+      "endTimes": [
+        "2021-01-09 21:19",
+        "2021-01-03 07:13"
+      ],
+      "msTotal": 370372
+    },
+    {
+      "id": "Bienvenue chez moi",
+      "artist": "Bigflo & Oli",
+      "group": 9,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-01-09 21:37",
+        "2020-11-30 20:42"
+      ],
+      "msTotal": 276216
+    },
+    {
+      "id": "Plus tard",
+      "artist": "47ter",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop",
+        "variete"
+      ],
+      "endTimes": [
+        "2021-01-09 21:45",
+        "2020-11-24 08:49"
+      ],
+      "msTotal": 337532
+    },
+    {
+      "id": "JUSQU'ICI TOUT VA BIEN",
+      "artist": "GIMS",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-09 21:56",
+        "2020-12-06 20:11"
+      ],
+      "msTotal": 468612
+    },
+    {
+      "id": "Tchin tchin",
+      "artist": "2TH",
+      "group": 14,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-17 12:16",
+        "2020-12-29 17:22"
+      ],
+      "msTotal": 196746
+    },
+    {
+      "id": "Probl\u00e8mes",
+      "artist": "2TH",
+      "group": 19,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-17 12:18",
+        "2021-11-18 19:19",
+        "2020-12-29 17:52"
+      ],
+      "msTotal": 301034
+    },
+    {
+      "id": "Mr. Jack",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-24 13:48",
+        "2021-05-13 17:00"
+      ],
+      "msTotal": 499252
+    },
+    {
+      "id": "Stupeflip vite !!!",
+      "artist": "Stupeflip",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "reggae"
+      ],
+      "endTimes": [
+        "2020-11-24 15:08",
+        "2021-03-17 22:41"
+      ],
+      "msTotal": 529146
+    },
+    {
+      "id": "Bohemian Rhapsody - Remastered 2011",
+      "artist": "Queen",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-11-24 15:43",
+        "2021-09-24 19:15"
+      ],
+      "msTotal": 358600
+    },
+    {
+      "id": "The Antidote",
+      "artist": "Stupeflip",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "reggae"
+      ],
+      "endTimes": [
+        "2020-11-25 14:27",
+        "2021-03-17 22:42"
+      ],
+      "msTotal": 2811
+    },
+    {
+      "id": "American Idiot",
+      "artist": "Green Day",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-25 14:36",
+        "2021-03-22 10:50"
+      ],
+      "msTotal": 330012
+    },
+    {
+      "id": "Clair de Lune",
+      "artist": "Rousseau",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-25 22:07",
+        "2021-01-27 11:13"
+      ],
+      "msTotal": 295539
+    },
+    {
+      "id": "Moonlight Sonata (3rd Movement)",
+      "artist": "Rousseau",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-25 22:08",
+        "2020-12-05 21:56"
+      ],
+      "msTotal": 436562
+    },
+    {
+      "id": "Sonne",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-25 22:09",
+        "2020-12-20 23:10"
+      ],
+      "msTotal": 284830
+    },
+    {
+      "id": "Engel",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-25 22:09",
+        "2020-12-20 23:14"
+      ],
+      "msTotal": 270416
+    },
+    {
+      "id": "Heart-Shaped Box",
+      "artist": "Nirvana",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-11-26 13:28",
+        "2020-11-29 20:59"
+      ],
+      "msTotal": 282280
+    },
+    {
+      "id": "1000\u00b0C",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-27 10:49",
+        "2021-01-16 12:51"
+      ],
+      "msTotal": 471812
+    },
+    {
+      "id": "The Pretender",
+      "artist": "Foo Fighters",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 11:18",
+        "2021-03-28 15:48"
+      ],
+      "msTotal": 432573
+    },
+    {
+      "id": "Have You Ever Seen The Rain",
+      "artist": "Creedence Clearwater Revival",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-11-28 15:59",
+        "2021-08-14 06:59"
+      ],
+      "msTotal": 320266
+    },
+    {
+      "id": "Du hast",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 16:33",
+        "2020-12-20 23:02"
+      ],
+      "msTotal": 397335
+    },
+    {
+      "id": "Violent Pornography",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 16:33",
+        "2021-06-27 00:54"
+      ],
+      "msTotal": 133217
+    },
+    {
+      "id": "Raining Blood",
+      "artist": "Slayer",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 16:51",
+        "2021-07-04 07:23"
+      ],
+      "msTotal": 443182
+    },
+    {
+      "id": "Ich will",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 16:51",
+        "2020-12-20 23:26"
+      ],
+      "msTotal": 217716
+    },
+    {
+      "id": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-11-28 16:51",
+        "2020-11-29 20:24"
+      ],
+      "msTotal": 1840
+    },
+    {
+      "id": "Come As You Are",
+      "artist": "Nirvana",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-11-28 17:06",
+        "2020-11-29 20:39"
+      ],
+      "msTotal": 437840
+    },
+    {
+      "id": "Roulette",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 17:09",
+        "2021-05-13 17:10"
+      ],
+      "msTotal": 402400
+    },
+    {
+      "id": "DEUTSCHLAND",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 17:23",
+        "2020-12-20 22:58"
+      ],
+      "msTotal": 347279
+    },
+    {
+      "id": "Sky Is Over",
+      "artist": "Serj Tankian",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-11-28 17:23",
+        "2021-07-11 12:30"
+      ],
+      "msTotal": 177510
+    },
+    {
+      "id": "Yeux disent",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-29 11:19",
+        "2021-01-16 14:22"
+      ],
+      "msTotal": 425172
+    },
+    {
+      "id": "Flash",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-29 11:21",
+        "2021-01-16 12:17"
+      ],
+      "msTotal": 307007
+    },
+    {
+      "id": "Regarde-moi",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-29 11:24",
+        "2021-01-16 12:23"
+      ],
+      "msTotal": 353760
+    },
+    {
+      "id": "Paradise (feat. Lomepal)",
+      "artist": "Lefa",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2020-11-29 11:25",
+        "2021-01-16 14:30"
+      ],
+      "msTotal": 184751
+    },
+    {
+      "id": "\u00c9videmment",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-29 12:12",
+        "2020-11-28 11:18"
+      ],
+      "msTotal": 238578
+    },
+    {
+      "id": "Fly Me to the Moon",
+      "artist": "GBSN",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-29 16:30",
+        "2020-12-07 17:52"
+      ],
+      "msTotal": 126930
+    },
+    {
+      "id": "The Sound of Silence",
+      "artist": "TheDooo",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-29 16:31",
+        "2020-12-07 17:50"
+      ],
+      "msTotal": 8660
+    },
+    {
+      "id": "Ascend",
+      "artist": "TheDooo",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-29 16:31",
+        "2021-01-23 10:13"
+      ],
+      "msTotal": 134171
+    },
+    {
+      "id": "Hallelujah",
+      "artist": "TheDooo",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-29 16:34",
+        "2020-12-07 17:52"
+      ],
+      "msTotal": 218242
+    },
+    {
+      "id": "J't'emm\u00e8ne au vent",
+      "artist": "Louise Attaque",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-30 20:39",
+        "2021-10-30 02:12"
+      ],
+      "msTotal": 368346
+    },
+    {
+      "id": "Plus rien ne m'\u00e9tonne",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-11-30 20:42",
+        "2020-12-21 13:27"
+      ],
+      "msTotal": 220060
+    },
+    {
+      "id": "A Little Messed Up",
+      "artist": "june",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-11-30 21:18",
+        "2021-06-15 15:43"
+      ],
+      "msTotal": 336000
+    },
+    {
+      "id": "London Calling - Remastered",
+      "artist": "The Clash",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-01 06:25",
+        "2021-06-19 21:14"
+      ],
+      "msTotal": 188653
+    },
+    {
+      "id": "Through The Fire And Flames",
+      "artist": "DragonForce",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-01 12:09",
+        "2021-04-04 06:15"
+      ],
+      "msTotal": 62281
+    },
+    {
+      "id": "Highway to Hell",
+      "artist": "AC/DC",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-01 17:33",
+        "2021-09-21 17:04"
+      ],
+      "msTotal": 211890
+    },
+    {
+      "id": "If Eternity Should Fail",
+      "artist": "Iron Maiden",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-01 17:33",
+        "2021-04-02 15:36"
+      ],
+      "msTotal": 511397
+    },
+    {
+      "id": "Inachev\u00e9s",
+      "artist": "Casseurs Flowters",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-01 17:37",
+        "2021-10-22 16:07"
+      ],
+      "msTotal": 256397
+    },
+    {
+      "id": "We Will Rock You - Remastered 2011",
+      "artist": "Queen",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-01 17:39",
+        "2021-08-14 06:03"
+      ],
+      "msTotal": 244132
+    },
+    {
+      "id": "Ils sont cools",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-01 17:43",
+        "2020-12-21 14:08"
+      ],
+      "msTotal": 434130
+    },
+    {
+      "id": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop",
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-01 18:05",
+        "2021-08-01 20:46"
+      ],
+      "msTotal": 219213
+    },
+    {
+      "id": "Attack",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-05 18:28",
+        "2021-07-24 10:02"
+      ],
+      "msTotal": 372932
+    },
+    {
+      "id": "Lonely Day",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-05 18:49",
+        "2021-03-26 21:22"
+      ],
+      "msTotal": 169442
+    },
+    {
+      "id": "Basket Case",
+      "artist": "Green Day",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-12-05 18:49",
+        "2021-03-22 11:28"
+      ],
+      "msTotal": 338036
+    },
+    {
+      "id": "Feuer frei!",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-05 18:49",
+        "2020-12-20 23:17"
+      ],
+      "msTotal": 189578
+    },
+    {
+      "id": "You're Gonna Go Far, Kid",
+      "artist": "The Offspring",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-12-08 09:31",
+        "2021-03-22 10:47"
+      ],
+      "msTotal": 179564
+    },
+    {
+      "id": "Symphony Of Destruction",
+      "artist": "Megadeth",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-08 09:59",
+        "2021-04-11 15:24"
+      ],
+      "msTotal": 139692
+    },
+    {
+      "id": "Fuck the System",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-08 10:11",
+        "2021-05-02 11:22"
+      ],
+      "msTotal": 133388
+    },
+    {
+      "id": "The Trooper - 2015 Remaster",
+      "artist": "Iron Maiden",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-08 10:11",
+        "2020-11-30 13:07"
+      ],
+      "msTotal": 252733
+    },
+    {
+      "id": "The Kids Aren't Alright",
+      "artist": "The Offspring",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-08 10:11",
+        "2021-03-28 12:54"
+      ],
+      "msTotal": 181087
+    },
+    {
+      "id": "Raelsan",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-08 15:34",
+        "2020-12-21 13:18"
+      ],
+      "msTotal": 315832
+    },
+    {
+      "id": "Back In Black",
+      "artist": "AC/DC",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-09 17:51",
+        "2021-01-19 14:53"
+      ],
+      "msTotal": 510986
+    },
+    {
+      "id": "Suicide social",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-09 18:09",
+        "2020-12-21 14:13"
+      ],
+      "msTotal": 683730
+    },
+    {
+      "id": "Soldiers Of The Wastelands",
+      "artist": "DragonForce",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-10 19:52",
+        "2021-04-04 18:00"
+      ],
+      "msTotal": 171828
+    },
+    {
+      "id": "Cry Thunder",
+      "artist": "DragonForce",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-10 19:53",
+        "2021-04-04 06:15"
+      ],
+      "msTotal": 40253
+    },
+    {
+      "id": "Prayer Of The Refugee",
+      "artist": "Rise Against",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-12-11 07:45",
+        "2021-04-11 14:30"
+      ],
+      "msTotal": 398772
+    },
+    {
+      "id": "Fly Me To The Moon",
+      "artist": "Frank Sinatra",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2020-12-11 13:58",
+        "2020-12-04 11:06"
+      ],
+      "msTotal": 269279
+    },
+    {
+      "id": "Aerials",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-14 18:08",
+        "2020-12-05 17:03"
+      ],
+      "msTotal": 43013
+    },
+    {
+      "id": "Empty Walls",
+      "artist": "Serj Tankian",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-14 18:12",
+        "2021-03-28 14:13"
+      ],
+      "msTotal": 333532
+    },
+    {
+      "id": "The Beautiful People",
+      "artist": "Marilyn Manson",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-14 18:16",
+        "2021-04-11 14:58"
+      ],
+      "msTotal": 437652
+    },
+    {
+      "id": "Run to the Hills - 2015 Remaster",
+      "artist": "Iron Maiden",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-17 16:21",
+        "2021-04-17 14:30"
+      ],
+      "msTotal": 233806
+    },
+    {
+      "id": "AMERIKA",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-17 16:46",
+        "2020-12-20 23:30"
+      ],
+      "msTotal": 270880
+    },
+    {
+      "id": "Rape Me",
+      "artist": "Nirvana",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2020-12-17 16:57",
+        "2021-03-28 08:24"
+      ],
+      "msTotal": 29696
+    },
+    {
+      "id": "B.Y.O.B.",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-17 16:57",
+        "2021-01-24 06:30"
+      ],
+      "msTotal": 255466
+    },
+    {
+      "id": "Chop Suey!",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-17 17:16",
+        "2020-11-25 22:15"
+      ],
+      "msTotal": 240939
+    },
+    {
+      "id": "Hypnotize",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-17 17:23",
+        "2021-03-26 21:31"
+      ],
+      "msTotal": 275405
+    },
+    {
+      "id": "La mort a du go\u00fbt",
+      "artist": "Bekar",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-19 15:19",
+        "2020-12-30 20:34"
+      ],
+      "msTotal": 234295
+    },
+    {
+      "id": "Soleil noir",
+      "artist": "47ter",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop",
+        "variete"
+      ],
+      "endTimes": [
+        "2020-12-19 15:54",
+        "2020-11-24 00:07"
+      ],
+      "msTotal": 220475
+    },
+    {
+      "id": "Pi\u00e8ces d\u00e9tach\u00e9es",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2020-12-19 16:06",
+        "2021-10-17 11:03"
+      ],
+      "msTotal": 476130
+    },
+    {
+      "id": "Enter Sandman",
+      "artist": "Metallica",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-23 16:55",
+        "2021-08-14 06:39"
+      ],
+      "msTotal": 411964
+    },
+    {
+      "id": "Fury Of The Storm",
+      "artist": "DragonForce",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "metal"
+      ],
+      "endTimes": [
+        "2020-12-26 22:15",
+        "2021-04-04 15:54"
+      ],
+      "msTotal": 8040
+    },
+    {
+      "id": "Jusqu'o\u00f9 elle m'aime (feat. Nemir)",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-02 17:04",
+        "2021-10-27 08:37"
+      ],
+      "msTotal": 438056
+    },
+    {
+      "id": "La marelle",
+      "artist": "KIKESA",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 17:12",
+        "2020-12-08 19:06"
+      ],
+      "msTotal": 260028
+    },
+    {
+      "id": "Elle viendra quand m\u00eame",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 17:20",
+        "2020-12-21 14:17"
+      ],
+      "msTotal": 405864
+    },
+    {
+      "id": "On aboie en silence",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 17:27",
+        "2021-10-17 11:20"
+      ],
+      "msTotal": 199487
+    },
+    {
+      "id": "Paradis noir (feat. DJ Pone)",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 21:27",
+        "2021-10-27 00:12"
+      ],
+      "msTotal": 171224
+    },
+    {
+      "id": "Le mal est fait",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 21:50",
+        "2021-11-18 12:38"
+      ],
+      "msTotal": 26006
+    },
+    {
+      "id": "Scanner (feat. L\u00e9a Castel)",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 21:50",
+        "2021-10-17 11:06"
+      ],
+      "msTotal": 223457
+    },
+    {
+      "id": "Aujourd'hui",
+      "artist": "Bigflo & Oli",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-02 22:01",
+        "2020-12-22 21:55"
+      ],
+      "msTotal": 223343
+    },
+    {
+      "id": "Regarde-moi",
+      "artist": "Moji x Sboy",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-02 22:07",
+        "2021-02-27 17:20"
+      ],
+      "msTotal": 213530
+    },
+    {
+      "id": "Si seul",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 13:17",
+        "2020-12-21 13:44"
+      ],
+      "msTotal": 494930
+    },
+    {
+      "id": "Le chant des sir\u00e8nes",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 13:51",
+        "2020-12-21 13:24"
+      ],
+      "msTotal": 348275
+    },
+    {
+      "id": "Finir mal",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 13:52",
+        "2020-12-21 13:40"
+      ],
+      "msTotal": 288400
+    },
+    {
+      "id": "Chute d'\u00e9toiles",
+      "artist": "Suzuya",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 14:01",
+        "2021-09-17 18:55"
+      ],
+      "msTotal": 175447
+    },
+    {
+      "id": "Retourne d'o\u00f9 tu viens",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 14:06",
+        "2021-10-27 08:43"
+      ],
+      "msTotal": 182626
+    },
+    {
+      "id": "Qui dit mieux (feat. Orelsan, Vald & Suikon Blaz AD)",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 15:26",
+        "2021-10-17 06:12"
+      ],
+      "msTotal": 44330
+    },
+    {
+      "id": "San",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-03 15:48",
+        "2021-02-24 16:41"
+      ],
+      "msTotal": 482117
+    },
+    {
+      "id": "Feu de bois",
+      "artist": "Damso",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-01-04 15:26",
+        "2021-08-12 22:29"
+      ],
+      "msTotal": 185056
+    },
+    {
+      "id": "D\u00e9chir\u00e9 (feat. Orelsan)",
+      "artist": "Gringe",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-04 15:28",
+        "2021-10-27 08:40"
+      ],
+      "msTotal": 220165
+    },
+    {
+      "id": "Dans mon \u00e9l\u00e9ment",
+      "artist": "Georgio",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-04 15:28",
+        "2021-05-13 03:01"
+      ],
+      "msTotal": 255676
+    },
+    {
+      "id": "La v\u00e9rit\u00e9",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-04 15:29",
+        "2021-01-16 12:58"
+      ],
+      "msTotal": 230583
+    },
+    {
+      "id": "La pluie (feat. Stromae)",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-04 15:44",
+        "2021-03-27 11:00"
+      ],
+      "msTotal": 176146
+    },
+    {
+      "id": "X-men",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-05 14:52",
+        "2021-01-16 12:43"
+      ],
+      "msTotal": 249560
+    },
+    {
+      "id": "Rose",
+      "artist": "KIKESA",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-01-12 07:17",
+        "2020-12-08 18:49"
+      ],
+      "msTotal": 239995
+    },
+    {
+      "id": "Mein Herz brennt",
+      "artist": "Rammstein",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-01-12 18:37",
+        "2020-12-20 23:34"
+      ],
+      "msTotal": 281423
+    },
+    {
+      "id": "Question!",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-01-15 15:51",
+        "2021-05-13 16:56"
+      ],
+      "msTotal": 201226
+    },
+    {
+      "id": "Another Brick In The Wall, Pt. 2 - 2011 Remastered Version",
+      "artist": "Pink Floyd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-18 06:19",
+        "2021-01-30 13:30"
+      ],
+      "msTotal": 477492
+    },
+    {
+      "id": "Comfortably Numb - 2011 Remastered Version",
+      "artist": "Pink Floyd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-01-18 06:26",
+        "2021-09-11 11:11"
+      ],
+      "msTotal": 764592
+    },
+    {
+      "id": "Money - 2011 Remastered Version",
+      "artist": "Pink Floyd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-18 06:31",
+        "2021-06-09 09:09"
+      ],
+      "msTotal": 721373
+    },
+    {
+      "id": "Time - 2011 Remastered Version",
+      "artist": "Pink Floyd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-01-18 06:31",
+        "2021-06-26 08:47"
+      ],
+      "msTotal": 415803
+    },
+    {
+      "id": "Rechute",
+      "artist": "Vald",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-01-21 19:02",
+        "2020-11-29 16:34"
+      ],
+      "msTotal": 373544
+    },
+    {
+      "id": "Toxicity",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-02-14 21:50",
+        "2021-01-24 06:26"
+      ],
+      "msTotal": 220201
+    },
+    {
+      "id": "Radio/Video",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-02-15 22:46",
+        "2021-05-13 16:52"
+      ],
+      "msTotal": 498452
+    },
+    {
+      "id": "Lost In Hollywood",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-02-28 18:23",
+        "2021-05-13 17:15"
+      ],
+      "msTotal": 589340
+    },
+    {
+      "id": "Sugar",
+      "artist": "System Of A Down",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-03-09 11:59",
+        "2021-02-16 18:26"
+      ],
+      "msTotal": 112202
+    },
+    {
+      "id": "King For A Day",
+      "artist": "Pierce The Veil",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "pop",
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-03-23 09:27",
+        "2021-03-22 12:01"
+      ],
+      "msTotal": 472586
+    },
+    {
+      "id": "Hotel California - 2013 Remaster",
+      "artist": "Eagles",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-03-31 19:09",
+        "2021-01-30 13:45"
+      ],
+      "msTotal": 540436
+    },
+    {
+      "id": "21 Guns",
+      "artist": "Green Day",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-04-06 09:48",
+        "2021-03-22 11:57"
+      ],
+      "msTotal": 642186
+    },
+    {
+      "id": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "blues",
+        "rock"
+      ],
+      "endTimes": [
+        "2021-04-07 09:59",
+        "2021-01-30 13:22"
+      ],
+      "msTotal": 491187
+    },
+    {
+      "id": "Breathe (In The Air) - 2011 Remastered Version",
+      "artist": "Pink Floyd",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-04-08 21:24",
+        "2021-09-21 17:51"
+      ],
+      "msTotal": 339068
+    },
+    {
+      "id": "Making A Fire",
+      "artist": "Foo Fighters",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-04-20 17:29",
+        "2021-07-04 06:14"
+      ],
+      "msTotal": 447294
+    },
+    {
+      "id": "Waiting On A War",
+      "artist": "Foo Fighters",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock",
+        "metal"
+      ],
+      "endTimes": [
+        "2021-04-26 14:56",
+        "2021-04-16 21:25"
+      ],
+      "msTotal": 507680
+    },
+    {
+      "id": "Gangsta's Paradise",
+      "artist": "Coolio",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "funk"
+      ],
+      "endTimes": [
+        "2021-06-05 10:41",
+        "2021-10-30 02:16"
+      ],
+      "msTotal": 481386
+    },
+    {
+      "id": "Des trous dans la t\u00eate",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-10 06:42",
+        "2020-12-21 13:48"
+      ],
+      "msTotal": 248038
+    },
+    {
+      "id": "La petite marchande de porte-clefs",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-10 07:40",
+        "2020-12-21 13:52"
+      ],
+      "msTotal": 424509
+    },
+    {
+      "id": "Double vie",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-10 08:54",
+        "2020-12-21 13:35"
+      ],
+      "msTotal": 246182
+    },
+    {
+      "id": "Montfermeil",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-17 20:40",
+        "2021-01-16 12:20"
+      ],
+      "msTotal": 339760
+    },
+    {
+      "id": "Un message imb\u00e9cile",
+      "artist": "2TH",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-19 14:07",
+        "2020-11-28 14:22"
+      ],
+      "msTotal": 164102
+    },
+    {
+      "id": "Ne me ram\u00e8ne pas",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-19 14:11",
+        "2021-01-16 12:36"
+      ],
+      "msTotal": 154489
+    },
+    {
+      "id": "M\u00f4mes",
+      "artist": "Lomepal",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-19 14:36",
+        "2021-01-16 12:39"
+      ],
+      "msTotal": 177759
+    },
+    {
+      "id": "God Save The Queen",
+      "artist": "Sex Pistols",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-06-20 14:30",
+        "2021-09-19 19:48"
+      ],
+      "msTotal": 200990
+    },
+    {
+      "id": "Miroir des limbes",
+      "artist": "Yuzmv",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-06-21 08:39",
+        "2021-07-31 18:21"
+      ],
+      "msTotal": 151506
+    },
+    {
+      "id": "You're Going Down",
+      "artist": "Sick Puppies",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-07-23 14:04",
+        "2021-10-09 11:34"
+      ],
+      "msTotal": 347714
+    },
+    {
+      "id": "Another Day Of Sun",
+      "artist": "La La Land Cast",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:28",
+        "2021-05-09 19:20"
+      ],
+      "msTotal": 364044
+    },
+    {
+      "id": "Someone In The Crowd",
+      "artist": "Emma Stone",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:28",
+        "2021-05-09 19:25"
+      ],
+      "msTotal": 271513
+    },
+    {
+      "id": "Mia & Sebastian\u2019s Theme",
+      "artist": "Justin Hurwitz",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:29",
+        "2021-05-09 19:26"
+      ],
+      "msTotal": 129290
+    },
+    {
+      "id": "Herman\u2019s Habit",
+      "artist": "Justin Hurwitz",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:29",
+        "2021-05-09 19:32"
+      ],
+      "msTotal": 113434
+    },
+    {
+      "id": "A Lovely Night",
+      "artist": "Ryan Gosling",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:29",
+        "2021-05-09 19:30"
+      ],
+      "msTotal": 280850
+    },
+    {
+      "id": "City Of Stars",
+      "artist": "Ryan Gosling",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-16 15:31",
+        "2021-05-09 19:34"
+      ],
+      "msTotal": 120693
+    },
+    {
+      "id": "Millions",
+      "artist": "No Limit",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-08-23 13:50",
+        "2021-10-17 15:55"
+      ],
+      "msTotal": 417264
+    },
+    {
+      "id": "Paint It, Black - Mono",
+      "artist": "The Rolling Stones",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-08-27 14:58",
+        "2021-01-19 14:57"
+      ],
+      "msTotal": 408960
+    },
+    {
+      "id": "You Should Be Dancing",
+      "artist": "Dee Gees",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-09-16 13:50",
+        "2021-07-23 10:54"
+      ],
+      "msTotal": 266181
+    },
+    {
+      "id": "In Bloom",
+      "artist": "Nirvana",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-09-17 11:31",
+        "2020-11-29 21:00"
+      ],
+      "msTotal": 55217
+    },
+    {
+      "id": "J'attends",
+      "artist": "Ben Mazu\u00e9",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-09-20 16:02",
+        "2021-06-17 17:30"
+      ],
+      "msTotal": 4044
+    },
+    {
+      "id": "La tribu de Dana",
+      "artist": "Manau",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-10-16 21:45",
+        "2021-10-30 02:58"
+      ],
+      "msTotal": 465737
+    },
+    {
+      "id": "Shy Away",
+      "artist": "Twenty One Pilots",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-10-16 21:52",
+        "2021-07-25 15:44"
+      ],
+      "msTotal": 13178
+    },
+    {
+      "id": "Sultans Of Swing",
+      "artist": "Dire Straits",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rock"
+      ],
+      "endTimes": [
+        "2021-10-16 22:25",
+        "2021-01-30 14:09"
+      ],
+      "msTotal": 678362
+    },
+    {
+      "id": "Pierre, feuille, papier, ciseaux",
+      "artist": "Columbine",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-10-17 19:17",
+        "2021-07-27 14:42"
+      ],
+      "msTotal": 309497
+    },
+    {
+      "id": "Les pr\u00e9lis",
+      "artist": "Columbine",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-10-18 15:46",
+        "2021-07-27 14:56"
+      ],
+      "msTotal": 319213
+    },
+    {
+      "id": "Temps \u00e9lectrique",
+      "artist": "Columbine",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-10-18 16:24",
+        "2021-07-27 15:05"
+      ],
+      "msTotal": 281486
+    },
+    {
+      "id": "Enfants terribles",
+      "artist": "Columbine",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-10-26 18:05",
+        "2021-07-27 15:16"
+      ],
+      "msTotal": 268616
+    },
+    {
+      "id": "Poup\u00e9e Russe",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-10-28 10:55",
+        "2021-07-27 14:51"
+      ],
+      "msTotal": 465881
+    },
+    {
+      "id": "Ahou",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-10-28 10:56",
+        "2021-07-27 15:29"
+      ],
+      "msTotal": 165669
+    },
+    {
+      "id": "Putain d'\u00e9poque",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-10-28 10:58",
+        "2021-07-27 14:49"
+      ],
+      "msTotal": 282800
+    },
+    {
+      "id": "Had\u00e8s (feat. Lujipeka)",
+      "artist": "Luv Resval",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap",
+        "pop"
+      ],
+      "endTimes": [
+        "2021-11-02 21:04",
+        "2021-06-05 11:02"
+      ],
+      "msTotal": 352709
+    },
+    {
+      "id": "Pas \u00e0 ma place",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-04 16:50",
+        "2021-11-21 18:39"
+      ],
+      "msTotal": 350500
+    },
+    {
+      "id": "Ao\u00fbt 2008",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-04 16:57",
+        "2021-01-27 11:08"
+      ],
+      "msTotal": 330160
+    },
+    {
+      "id": "Palapalaba",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-15 12:26",
+        "2020-12-08 23:43"
+      ],
+      "msTotal": 71657
+    },
+    {
+      "id": "Le Soleil",
+      "artist": "Lujipeka",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-15 12:28",
+        "2021-07-27 15:21"
+      ],
+      "msTotal": 252720
+    },
+    {
+      "id": "L'odeur de l'essence",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "other"
+      ],
+      "endTimes": [
+        "2021-11-18 14:05",
+        "2021-11-17 17:30"
+      ],
+      "msTotal": 564950
+    },
+    {
+      "id": "Dans la temp\u00eate",
+      "artist": "DOXX",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-18 19:19",
+        "2021-09-17 18:49"
+      ],
+      "msTotal": 234681
+    },
+    {
+      "id": "Shonen",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 16:15",
+        "2021-11-18 23:08"
+      ],
+      "msTotal": 307130
+    },
+    {
+      "id": "La Qu\u00eate",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 16:16",
+        "2021-11-18 23:05"
+      ],
+      "msTotal": 3074
+    },
+    {
+      "id": "Ensemble",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 16:30",
+        "2021-11-19 00:44"
+      ],
+      "msTotal": 414548
+    },
+    {
+      "id": "Casseurs Flowters Infinity",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 17:59",
+        "2021-11-19 00:36"
+      ],
+      "msTotal": 339658
+    },
+    {
+      "id": "Du propre",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:07",
+        "2021-11-18 23:13"
+      ],
+      "msTotal": 245309
+    },
+    {
+      "id": "B\u00e9b\u00e9boa",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:10",
+        "2021-11-19 00:07"
+      ],
+      "msTotal": 364132
+    },
+    {
+      "id": "R\u00eave mieux",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:14",
+        "2021-11-19 00:11"
+      ],
+      "msTotal": 448532
+    },
+    {
+      "id": "Seul avec du monde autour",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:17",
+        "2021-11-19 00:14"
+      ],
+      "msTotal": 417188
+    },
+    {
+      "id": "Manifeste",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:24",
+        "2021-11-19 00:22"
+      ],
+      "msTotal": 884498
+    },
+    {
+      "id": "Jour meilleur",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:32",
+        "2021-11-19 00:29"
+      ],
+      "msTotal": 362222
+    },
+    {
+      "id": "Baise le monde",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 18:36",
+        "2021-11-19 00:33"
+      ],
+      "msTotal": 450478
+    },
+    {
+      "id": "Dernier verre",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 19:01",
+        "2021-11-19 00:40"
+      ],
+      "msTotal": 407864
+    },
+    {
+      "id": "Ath\u00e9na",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 19:08",
+        "2021-11-19 00:47"
+      ],
+      "msTotal": 344094
+    },
+    {
+      "id": "Civilisation",
+      "artist": "Orelsan",
+      "group": 15,
+      "type": "music",
+      "size": 5,
+      "force": -10,
+      "genres": [
+        "rap"
+      ],
+      "endTimes": [
+        "2021-11-19 19:13",
+        "2021-11-19 00:51"
+      ],
+      "msTotal": 490068
     }
   ],
   "links": [
     {
+      "source": "Marion",
+      "target": "Fever",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Fever",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Fever",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "D\u00c1KITI",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "D\u00c1KITI",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Mood (feat. iann dior)",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Mood (feat. iann dior)",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Blinding Lights",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Blinding Lights",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Damdamdeo",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Damdamdeo",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Balance ton quoi",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Balance ton quoi",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Tout oublier",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Tout oublier",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Oui ou non",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Oui ou non",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Ta reine",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Ta reine",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Promesses",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Promesses",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Prisoner (feat. Dua Lipa)",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Prisoner (feat. Dua Lipa)",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Ne fuis pas",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Ne fuis pas",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Ne fuis pas",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Probl\u00e8mes",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Probl\u00e8mes",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "D\u00e9saccord\u00e9",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "D\u00e9saccord\u00e9",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "C\u00f4te Ouest",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "C\u00f4te Ouest",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Trop beau",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Trop beau",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Trop beau",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Dance Monkey",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Dance Monkey",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Immortel",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Immortel",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Prosecco",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Prosecco",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Vivre",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Vivre",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Bienvenue chez moi",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Bienvenue chez moi",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Plus tard",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Plus tard",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "JUSQU'ICI TOUT VA BIEN",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "JUSQU'ICI TOUT VA BIEN",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Tchin tchin",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Tchin tchin",
+      "value": 1
+    },
+    {
+      "source": "Marion",
+      "target": "Probl\u00e8mes",
+      "value": 1
+    },
+    {
+      "source": "Tom",
+      "target": "Probl\u00e8mes",
+      "value": 1
+    },
+    {
+      "source": "Victor",
+      "target": "Probl\u00e8mes",
+      "value": 1
+    },
+    {
       "source": "Tom",
       "target": "Mr. Jack",
       "value": 1
@@ -1681,26 +3587,6 @@
     },
     {
       "source": "Tom",
-      "target": "Oui ou non",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Oui ou non",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
-      "value": 1
-    },
-    {
-      "source": "Tom",
       "target": "Have You Ever Seen The Rain",
       "value": 1
     },
@@ -1797,21 +3683,6 @@
     {
       "source": "Victor",
       "target": "Sky Is Over",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Trop beau",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Trop beau",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Trop beau",
       "value": 1
     },
     {
@@ -1916,16 +3787,6 @@
     },
     {
       "source": "Tom",
-      "target": "Bienvenue chez moi",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Bienvenue chez moi",
-      "value": 1
-    },
-    {
-      "source": "Tom",
       "target": "Plus rien ne m'\u00e9tonne",
       "value": 1
     },
@@ -1952,16 +3813,6 @@
     {
       "source": "Victor",
       "target": "London Calling - Remastered",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Dance Monkey",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Dance Monkey",
       "value": 1
     },
     {
@@ -2032,16 +3883,6 @@
     {
       "source": "Victor",
       "target": "Never Gonna Give You Up",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Blinding Lights",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Blinding Lights",
       "value": 1
     },
     {
@@ -2142,36 +3983,6 @@
     {
       "source": "Victor",
       "target": "Raelsan",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Balance ton quoi",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Balance ton quoi",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Tout oublier",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Tout oublier",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Ta reine",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Ta reine",
       "value": 1
     },
     {
@@ -2342,16 +4153,6 @@
     {
       "source": "Victor",
       "target": "Soleil noir",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "D\u00e9saccord\u00e9",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "D\u00e9saccord\u00e9",
       "value": 1
     },
     {
@@ -2586,32 +4387,12 @@
     },
     {
       "source": "Tom",
-      "target": "Promesses",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Promesses",
-      "value": 1
-    },
-    {
-      "source": "Tom",
       "target": "La pluie (feat. Stromae)",
       "value": 1
     },
     {
       "source": "Victor",
       "target": "La pluie (feat. Stromae)",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Probl\u00e8mes",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Probl\u00e8mes",
       "value": 1
     },
     {
@@ -3096,21 +4877,6 @@
     },
     {
       "source": "Tom",
-      "target": "Fever",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Fever",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Fever",
-      "value": 1
-    },
-    {
-      "source": "Tom",
       "target": "Enfants terribles",
       "value": 1
     },
@@ -3211,42 +4977,12 @@
     },
     {
       "source": "Tom",
-      "target": "Ne fuis pas",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Ne fuis pas",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Ne fuis pas",
-      "value": 1
-    },
-    {
-      "source": "Tom",
       "target": "Dans la temp\u00eate",
       "value": 1
     },
     {
       "source": "Victor",
       "target": "Dans la temp\u00eate",
-      "value": 1
-    },
-    {
-      "source": "Tom",
-      "target": "Probl\u00e8mes",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Probl\u00e8mes",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Probl\u00e8mes",
       "value": 1
     },
     {
@@ -3387,116 +5123,6 @@
     {
       "source": "Victor",
       "target": "Civilisation",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Plus tard",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Plus tard",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "C\u00f4te Ouest",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "C\u00f4te Ouest",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Mood (feat. iann dior)",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Mood (feat. iann dior)",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "JUSQU'ICI TOUT VA BIEN",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "JUSQU'ICI TOUT VA BIEN",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Prisoner (feat. Dua Lipa)",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Prisoner (feat. Dua Lipa)",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "D\u00c1KITI",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "D\u00c1KITI",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Tchin tchin",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Tchin tchin",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Vivre",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Vivre",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Prosecco",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Prosecco",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Immortel",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Immortel",
-      "value": 1
-    },
-    {
-      "source": "Victor",
-      "target": "Damdamdeo",
-      "value": 1
-    },
-    {
-      "source": "Marion",
-      "target": "Damdamdeo",
       "value": 1
     }
   ]
