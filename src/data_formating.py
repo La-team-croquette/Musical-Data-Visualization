@@ -67,7 +67,7 @@ with open(path + '\\genres.txt', 'w') as f:
     for e in list(genre_list):
         f.write(e + "\n")
 
-with open(path + '\\fomated_json.json', "w") as f:
+with open(path + '\\in_formating_json.json', "w") as f:
     json.dump(json_merged, f)
 
 print('PROCESS COMPLETED')
