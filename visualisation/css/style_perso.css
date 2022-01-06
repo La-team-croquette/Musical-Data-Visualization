@@ -17,7 +17,7 @@ svg {
 
 
 .card {
-    color: #363940;
+    color: white;
 }
 
 #checkbox_div {
@@ -26,7 +26,8 @@ svg {
 
 #musical_style_card {
     margin: 2em;
-    /*background-color: rgba(255, 255, 255, 0.2);*/
+    background-color: #6c757d;
+
 }
 
 #filter_date {
