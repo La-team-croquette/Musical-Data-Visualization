@@ -180,7 +180,7 @@ d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
         // invalidation // a promise to stop the simulation when the cell is re-run
     })
 
-    d3.selectAll("svg > *").remove();
+    d3.select("#graph").selectAll("svg > *").remove();
 
     d3.select("#graph")
         .append("svg")

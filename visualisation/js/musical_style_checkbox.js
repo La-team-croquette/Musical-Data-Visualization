@@ -11,7 +11,7 @@ checkbox_div.id = "checkbox_div"
 
 music_styles_card.appendChild(checkbox_div)
 
-let stylesToFilter = [];
+let stylesToFilter = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete'];
 let checkboxes = []
 
 
@@ -38,6 +38,7 @@ for (let style of music_styles) {
     input.name = "flexRadioDefault"
     input.id = "flexRadio" + style
     input.value = style
+    input.checked = true
     input.setAttribute("onchange", "eventCheckbox(this)");
 
     let label = document.createElement("label")
