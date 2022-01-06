@@ -14,11 +14,11 @@ let TABLE_TIME_MOIS = [];
 d3.json("../data/Tom.json").then(json => {
     //On définit comme date courrante la plus petite date du JSON
     let date_current = Date.parse(json[0]['endTime']);
-    let jourcurrent = new Date(date_current).getDate();
+    let jourcurrent = new Date(date_current).getDate(); //On le transforme sous format Date
 
     //On initialise des tables vides pour établir les tables des données
     let table = [];
-    let table_mois = [];
+
     //On ajoute la premiere date
     let date_string = toString(date_current);
     console.log(date_string);
@@ -28,7 +28,7 @@ d3.json("../data/Tom.json").then(json => {
     let dernier_jour = Date.parse(json[json.length - 1]['endTime']);
     TABLE_JOUR2 = getDates(date_current, dernier_jour);
     let time_tot = 0;
-    let time_mois = 0;
+
     for (var i = 0; i < json.length; i++) {
         let date_new = Date.parse(json[i]['endTime']);
         let journew = new Date(date_new).getDate();
@@ -51,7 +51,7 @@ d3.json("../data/Tom.json").then(json => {
     }
     let indexe_vrais = 0;
     for (let i = 0; i < TABLE_JOUR2.length; i++) {
-        if (toString(TABLE_JOUR_VAL[indexe_vrais]) == toString(TABLE_JOUR2[i])) {
+        if (toString(TABLE_JOUR_VAL[indexe_vrais]) === toString(TABLE_JOUR2[i])) {
             TABLE_TIME2[i] = TABLE_TIME[indexe_vrais];
             indexe_vrais++;
         } else {
@@ -80,8 +80,10 @@ d3.json("../data/Tom.json").then(json => {
         table_test.push(TABLE_TIME2[i] / max * 20)
     }
     console.log(table_test.length)
-
-    creatchartbar(table_test);
+    const margin = {top: 20, right: 20, bottom: 50, left: 50},
+        width = 400 - margin.left - margin.right,
+        height = 400 - margin.top - margin.bottom;
+    creatchartbar(table_test, width, height, margin);
     d3.select('#slider').on("input", e => {
         var val = document.getElementById('slider').value;
         console.log(val)
@@ -129,25 +131,29 @@ function toString(date) {
     return jour.toString() + "/" + mois.toString() + "/" + annee.toString();
 }
 
-function creatchartbar(table_test, width, height) {
+function creatchartbar(jour, table_test, width, height, margin) {
     const x = d3.scaleBand()
         .range([0, width])
         .padding(0.1);
-    let w = table_test.length * 10;
-    let h = 100;
+    const y = d3.scaleLinear()
+        .range([height, 0])
+    x.domain(jour)
+    y.domain([O, d3.max(table_test)])
     let size = table_test.length
     let svg = d3.select("#bargraph_time")
         .append("svg")
-        .attr("width", w)
-        .attr("height", h)
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     svg.selectAll("rect")
         .data(table_test)
         .enter()
         .append("rect")
-        .attr("x", (d, i) => w / size + i * 3)
-        .attr("y", (d, i) => h - 3 * d)
-        .attr("width", (d, i) => w / size)
-        .attr("height", (d, i) => d * 3)
+        .attr("x", (d, i) => x(d))
+        .attr("y", (d, i) => y(d))
+        .attr("width", (d, i) => x.bandwidth())
+        .attr("height", (d, i) => height - y(d))
         .attr("fill", "navy")
         .attr("class", "bar")
 }
