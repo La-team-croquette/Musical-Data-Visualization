@@ -43,7 +43,7 @@ let dataMock = [{
 
 let filteredDataMock
 
-let music_styles = ["Rock", "Rap", "Pop"]
+let music_styles = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete']
 
 let music_styles_card = document.getElementById("musical_style_card")
 
