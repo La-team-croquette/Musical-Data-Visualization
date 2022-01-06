@@ -156,24 +156,21 @@ function ForceGraph({
 
 d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    const margin = {top: 0, right: 0, bottom: 30, left: 0},
-        width = 1920,
-        height = 1080;
-
+    const margin = {top: 0, right: 0, bottom: 30, left: 0};
 
     const chart = ForceGraph(nodes_links, {
         nodeId: d => d.id,
         nodeGroup: d => d.group,
         nodeTitle: d => `${d.id}\n${d.artist}`,
         linkStrokeWidth: l => Math.sqrt(l.value),
-        width: window.innerWidth,
-        height: window.innerHeight,
+        width: parseInt(d3.select('#graph').style('width'), 10),
+        height: window.innerHeight * .8,
         // invalidation // a promise to stop the simulation when the cell is re-run
     })
     d3.select("#graph")
         .append("svg")
-        .attr("width", width)
-        .attr("height", height)
+        .attr("width", "100%")
+        .attr("height", window.innerHeight * .8)
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     var svg = document.getElementsByTagName('svg')[0]; //Get svg element

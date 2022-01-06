@@ -1,10 +1,9 @@
 svg {
+    /*background-color: rgba(0, 100, 0, 0.2);*/
 }
 
 #graph {
     /*background-color: rgba(100, 0, 0, 0.2);*/
-    /*width: 100%;*/
-
 }
 
 .ppp {
@@ -27,15 +26,12 @@ svg {
 
 #musical_style_card {
     margin: 2em;
-    position: absolute;
-    right: 0;
     /*background-color: rgba(255, 255, 255, 0.2);*/
 }
 
 #filter_date {
     float: left;
     margin: 2em;
-    position: absolute;
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
 
@@ -46,9 +42,21 @@ div.tooltip {
     text-shadow: #f5f5f5 0 1px 0;
     border-radius: 2px;
     opacity: 0.9;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .hidden {
     display: none;
+}
+
+
+#slider {
+    background: #82CFD0;
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 7px;
+    /*width: 356px;*/
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
 }
