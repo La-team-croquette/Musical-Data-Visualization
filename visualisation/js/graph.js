@@ -46,15 +46,23 @@ function ForceGraph({
 
     // Construct the forces.
     const forceNode = d3.forceManyBody();
-    const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
+    const forceLink = d3.forceLink(links).id(function ({index: i}) {
+            try {
+                return N[i];
+            } catch (e) {
+                return null;
+            }
+        }
+    );
     if (nodeStrength !== undefined) forceNode.strength(nodeStrength);
     if (linkStrength !== undefined) forceLink.strength(linkStrength);
 
     const simulation = d3.forceSimulation(nodes)
-        .force("link", forceLink)
-        .force("charge", forceNode)
-        .force("center", d3.forceCenter())
-        .on("tick", ticked);
+            .force("link", forceLink)
+            .force("charge", forceNode)
+            .force("center", d3.forceCenter())
+            .on("tick", ticked);
+
 
     const svg = d3.create("svg")
         .attr("width", width)
@@ -154,10 +162,14 @@ function ForceGraph({
     return Object.assign(svg.node(), {scales: {color}});
 }
 
+function drawGraph(){
 d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    const margin = {top: 0, right: 0, bottom: 30, left: 0};
+    nodes_links = filterMusicStyle(nodes_links,stylesToFilter)
+    //
 
+
+    const margin = {top: 0, right: 0, bottom: 30, left: 0};
     const chart = ForceGraph(nodes_links, {
         nodeId: d => d.id,
         nodeGroup: d => d.group,
@@ -167,6 +179,9 @@ d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
         height: window.innerHeight * .8,
         // invalidation // a promise to stop the simulation when the cell is re-run
     })
+
+    d3.selectAll("svg > *").remove();
+
     d3.select("#graph")
         .append("svg")
         .attr("width", "100%")
@@ -176,4 +191,8 @@ d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
     var svg = document.getElementsByTagName('svg')[0]; //Get svg element
     svg.appendChild(chart);
 
-})
+})}
+
+drawGraph();
+
+
