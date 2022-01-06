@@ -36,5 +36,12 @@ with open(path + '\\in_formating_json.json', encoding='utf8') as jsonFile:
         else:
             e['genres'] = list_temp
 
+for e in json_merged:
+    genre_set = set(e['genres'])
+    if 'hip hop' in genre_set:
+        genre_set.add('rap')
+        genre_set.remove('hip hop')
+        e['genres'] = list(genre_set)
+
 with open(path + '\\formated_json.json', "w") as f:
     json.dump(json_merged, f)
