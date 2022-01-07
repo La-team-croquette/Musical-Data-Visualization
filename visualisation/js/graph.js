@@ -43,25 +43,21 @@ function ForceGraph({
 
     // Construct the scales.
     const color = nodeGroup == null ? null : d3.scaleOrdinal(nodeGroups, colors);
+    let sizeScale = d3.scaleLinear()
+        .domain([d3.min(nodes, n => n.msTotal), d3.max(nodes, n => n.msTotal)])
+        .range([4, 20])
 
     // Construct the forces.
     const forceNode = d3.forceManyBody();
-    const forceLink = d3.forceLink(links).id(function ({index: i}) {
-            try {
-                return N[i];
-            } catch (e) {
-                return null;
-            }
-        }
-    );
-    if (nodeStrength !== undefined) forceNode.strength(nodeStrength);
-    if (linkStrength !== undefined) forceLink.strength(linkStrength);
+    const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
+    if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -sizeScale(d.msTotal) : -500);
+    if (linkStrength !== undefined) forceLink.strength(d => 0.03);
 
     const simulation = d3.forceSimulation(nodes)
-            .force("link", forceLink)
-            .force("charge", forceNode)
-            .force("center", d3.forceCenter())
-            .on("tick", ticked);
+        .force("link", forceLink)
+        .force("charge", forceNode)
+        .force("center", d3.forceCenter())
+        .on("tick", ticked);
 
 
     const svg = d3.create("svg")
@@ -87,7 +83,7 @@ function ForceGraph({
         .selectAll("circle")
         .data(nodes)
         .join("circle")
-        .attr("r", nodeRadius)
+        .attr("r", d => d.type === "music" ? sizeScale(d.msTotal) : 10)
         .call(drag(simulation));
 
     if (W) link.attr("stroke-width", ({index: i}) => W[i]);
@@ -99,10 +95,11 @@ function ForceGraph({
         return value !== null && typeof value === "object" ? value.valueOf() : value;
     }
 
+    const ar = 300;
     var refs = {
-        "Marion": [-200, -200],
-        "Tom": [200, -200],
-        "Victor": [200, 200],
+        "Tom": [0, -ar],
+        "Marion": [-ar, ar],
+        "Victor": [ar, ar],
     }
 
     function ticked() {
@@ -162,36 +159,37 @@ function ForceGraph({
     return Object.assign(svg.node(), {scales: {color}});
 }
 
-function drawGraph(){
-d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
+function drawGraph() {
+    d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    nodes_links = filterMusicStyle(nodes_links,stylesToFilter)
-    //
+        nodes_links = filterMusicStyle(nodes_links, stylesToFilter)
+        //
 
 
-    const margin = {top: 0, right: 0, bottom: 30, left: 0};
-    const chart = ForceGraph(nodes_links, {
-        nodeId: d => d.id,
-        nodeGroup: d => d.group,
-        nodeTitle: d => `${d.id}\n${d.artist}`,
-        linkStrokeWidth: l => Math.sqrt(l.value),
-        width: parseInt(d3.select('#graph').style('width'), 10),
-        height: window.innerHeight * .8,
-        // invalidation // a promise to stop the simulation when the cell is re-run
+        const margin = {top: 0, right: 0, bottom: 30, left: 0};
+        const chart = ForceGraph(nodes_links, {
+            nodeId: d => d.id,
+            nodeGroup: d => d.group,
+            nodeTitle: d => `${d.id}\n${d.artist}`,
+            linkStrokeWidth: l => Math.sqrt(l.value),
+            width: parseInt(d3.select('#graph').style('width'), 10),
+            height: window.innerHeight * .8,
+            // invalidation // a promise to stop the simulation when the cell is re-run
+        })
+
+        d3.select("#graph").selectAll("svg > *").remove();
+
+        d3.select("#graph")
+            .append("svg")
+            .attr("width", "100%")
+            .attr("height", window.innerHeight * .8)
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var svg = document.getElementsByTagName('svg')[0]; //Get svg element
+        svg.appendChild(chart);
+
     })
-
-    d3.select("#graph").selectAll("svg > *").remove();
-
-    d3.select("#graph")
-        .append("svg")
-        .attr("width", "100%")
-        .attr("height", window.innerHeight * .8)
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    var svg = document.getElementsByTagName('svg')[0]; //Get svg element
-    svg.appendChild(chart);
-
-})}
+}
 
 drawGraph();
 
