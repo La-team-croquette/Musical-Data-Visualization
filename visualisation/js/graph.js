@@ -51,7 +51,7 @@ function ForceGraph({
     const forceNode = d3.forceManyBody();
     const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
     if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -sizeScale(d.msTotal) : -500);
-    if (linkStrength !== undefined) forceLink.strength(0.05);
+    if (linkStrength !== undefined) forceLink.strength(d => 0.05);
 
     const simulation = d3.forceSimulation(nodes)
         .force("link", forceLink)
@@ -84,8 +84,7 @@ function ForceGraph({
         .data(nodes)
         .join("circle")
         .attr("r", d => d.type === "music" ? sizeScale(d.msTotal) : 30)
-        .call(drag(simulation))
-
+        .call(drag(simulation));
 
     if (W) link.attr("stroke-width", ({index: i}) => W[i]);
     // if (G) node.attr("fill", ({index: i}) => color(G[i]));
