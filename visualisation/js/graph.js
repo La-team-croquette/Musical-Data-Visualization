@@ -30,7 +30,7 @@ function ForceGraph({
     const LS = d3.map(links, linkSource).map(intern);
     const LT = d3.map(links, linkTarget).map(intern);
     if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, nodeTitle);
+    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d.artist + '\n' + d3.sort(d.genres) : d.id);
     const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
@@ -51,7 +51,7 @@ function ForceGraph({
     const forceNode = d3.forceManyBody();
     const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
     if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -sizeScale(d.msTotal) : -500);
-    if (linkStrength !== undefined) forceLink.strength(d => 0.03);
+    if (linkStrength !== undefined) forceLink.strength(0.05);
 
     const simulation = d3.forceSimulation(nodes)
         .force("link", forceLink)
@@ -83,11 +83,14 @@ function ForceGraph({
         .selectAll("circle")
         .data(nodes)
         .join("circle")
-        .attr("r", d => d.type === "music" ? sizeScale(d.msTotal) : 10)
-        .call(drag(simulation));
+        .attr("r", d => d.type === "music" ? sizeScale(d.msTotal) : 30)
+        .call(drag(simulation))
+
 
     if (W) link.attr("stroke-width", ({index: i}) => W[i]);
-    if (G) node.attr("fill", ({index: i}) => color(G[i]));
+    // if (G) node.attr("fill", ({index: i}) => color(G[i]));
+    if (G) node.attr("fill", d => d.type === "music" ? color(G[d.index]) : "url(#image)");
+
     if (T) node.append("title").text(({index: i}) => T[i]);
     if (invalidation != null) invalidation.then(() => simulation.stop());
 
@@ -95,11 +98,10 @@ function ForceGraph({
         return value !== null && typeof value === "object" ? value.valueOf() : value;
     }
 
-    const ar = 300;
-    var refs = {
-        "Tom": [0, -ar],
-        "Marion": [-ar, ar],
-        "Victor": [ar, ar],
+    let refs = {
+        "Tom": [0, -200],
+        "Marion": [-300, 200],
+        "Victor": [300, 200],
     }
 
     function ticked() {
@@ -169,7 +171,7 @@ function drawGraph() {
         const margin = {top: 0, right: 0, bottom: 30, left: 0};
         const chart = ForceGraph(nodes_links, {
             nodeId: d => d.id,
-            nodeGroup: d => d.group,
+            nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(",") : "user",
             nodeTitle: d => `${d.id}\n${d.artist}`,
             linkStrokeWidth: l => Math.sqrt(l.value),
             width: parseInt(d3.select('#graph').style('width'), 10),
