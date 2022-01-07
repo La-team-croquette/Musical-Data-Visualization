@@ -3,31 +3,23 @@
     {
       "id": "Tom",
       "group": "1",
-      "type": "user",
-      "size": 15,
-      "force": -500
+      "type": "user"
     },
     {
       "id": "Marion",
       "group": "1",
-      "type": "user",
-      "size": 15,
-      "force": -500
+      "type": "user"
     },
     {
       "id": "Victor",
       "group": "1",
-      "type": "user",
-      "size": 15,
-      "force": -500
+      "type": "user"
     },
     {
       "id": "Fever",
       "artist": "Dua Lipa",
       "group": 19,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "pop"
       ],
@@ -54,8 +46,6 @@
       "artist": "Bad Bunny",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "reggae",
         "rap"
@@ -78,11 +68,9 @@
       "artist": "24kGoldn",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -102,8 +90,6 @@
       "artist": "The Weeknd",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "pop"
       ],
@@ -129,11 +115,9 @@
       "artist": "Lorenzo",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -150,11 +134,9 @@
       "artist": "Ang\u00e8le",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "variete"
+        "variete",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -178,11 +160,9 @@
       "artist": "Ang\u00e8le",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "variete"
+        "variete",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -200,11 +180,9 @@
       "artist": "Ang\u00e8le",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "variete"
+        "variete",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -228,11 +206,9 @@
       "artist": "Ang\u00e8le",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "variete"
+        "variete",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -249,11 +225,9 @@
       "artist": "Bigflo & Oli",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -270,8 +244,6 @@
       "artist": "Miley Cyrus",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "pop"
       ],
@@ -290,8 +262,6 @@
       "artist": "2TH",
       "group": 19,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -323,11 +293,9 @@
       "artist": "PLK",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -344,11 +312,9 @@
       "artist": "Vald",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -369,8 +335,6 @@
       "artist": "Therapie TAXI",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "pop"
       ],
@@ -424,12 +388,10 @@
       "artist": "47ter",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
         "variete",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -457,8 +419,6 @@
       "artist": "Lomepal",
       "group": 19,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -493,8 +453,6 @@
       "artist": "Tones And I",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "pop"
       ],
@@ -523,8 +481,6 @@
       "artist": "Petit Voyou",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -544,8 +500,6 @@
       "artist": "Petit Voyou",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -564,12 +518,10 @@
       "artist": "47ter",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
         "variete",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -591,11 +543,9 @@
       "artist": "Bigflo & Oli",
       "group": 9,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -612,12 +562,10 @@
       "artist": "47ter",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
         "variete",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Marion": [
@@ -637,8 +585,6 @@
       "artist": "GIMS",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -657,8 +603,6 @@
       "artist": "2TH",
       "group": 14,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -686,8 +630,6 @@
       "artist": "2TH",
       "group": 19,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -725,11 +667,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -764,12 +704,10 @@
       "artist": "Stupeflip",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "reggae",
-        "rap"
+        "rap",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -814,8 +752,6 @@
       "artist": "Queen",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -862,12 +798,10 @@
       "artist": "Stupeflip",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "reggae",
-        "rap"
+        "rap",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -897,8 +831,6 @@
       "artist": "Green Day",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -999,8 +931,6 @@
       "artist": "Rousseau",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -1019,8 +949,6 @@
       "artist": "Rousseau",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -1040,11 +968,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1083,11 +1009,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1107,8 +1031,6 @@
       "artist": "Nirvana",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -1177,8 +1099,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -1242,11 +1162,9 @@
       "artist": "Foo Fighters",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1405,8 +1323,6 @@
       "artist": "Creedence Clearwater Revival",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -1427,11 +1343,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1476,11 +1390,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -1520,11 +1432,9 @@
       "artist": "Slayer",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1588,11 +1498,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1626,8 +1534,6 @@
       "artist": "Nirvana",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -1673,8 +1579,6 @@
       "artist": "Nirvana",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -1721,11 +1625,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -1764,11 +1666,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -1808,8 +1708,6 @@
       "artist": "Serj Tankian",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -1853,8 +1751,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -1881,8 +1777,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -1920,8 +1814,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -1951,11 +1843,9 @@
       "artist": "Lefa",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -1972,8 +1862,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -2009,8 +1897,6 @@
       "artist": "GBSN",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2086,8 +1972,6 @@
       "artist": "TheDooo",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2138,8 +2022,6 @@
       "artist": "TheDooo",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2187,8 +2069,6 @@
       "artist": "TheDooo",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2239,8 +2119,6 @@
       "artist": "Louise Attaque",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2275,8 +2153,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -2316,8 +2192,6 @@
       "artist": "june",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2339,8 +2213,6 @@
       "artist": "The Clash",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -2367,8 +2239,6 @@
       "artist": "DragonForce",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -2409,8 +2279,6 @@
       "artist": "AC/DC",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -2454,11 +2322,9 @@
       "artist": "Iron Maiden",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -2501,8 +2367,6 @@
       "artist": "Casseurs Flowters",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -2547,8 +2411,6 @@
       "artist": "Queen",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -2572,8 +2434,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -2606,11 +2466,9 @@
       "artist": "Rick Astley",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "pop"
+        "pop",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -2632,11 +2490,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -2672,11 +2528,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -2726,8 +2580,6 @@
       "artist": "Green Day",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2773,11 +2625,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -2813,8 +2663,6 @@
       "artist": "The Offspring",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -2855,11 +2703,9 @@
       "artist": "Megadeth",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -2892,11 +2738,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -2993,11 +2837,9 @@
       "artist": "Iron Maiden",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3045,12 +2887,10 @@
       "artist": "The Offspring",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
+        "metal",
         "pop",
-        "metal"
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3085,8 +2925,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -3125,8 +2963,6 @@
       "artist": "AC/DC",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -3176,8 +3012,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -3217,8 +3051,6 @@
       "artist": "DragonForce",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -3264,8 +3096,6 @@
       "artist": "DragonForce",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -3306,8 +3136,6 @@
       "artist": "Rise Against",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -3352,8 +3180,6 @@
       "artist": "Frank Sinatra",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -3372,11 +3198,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -3419,8 +3243,6 @@
       "artist": "Serj Tankian",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -3464,11 +3286,9 @@
       "artist": "Marilyn Manson",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3504,11 +3324,9 @@
       "artist": "Iron Maiden",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3553,11 +3371,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3593,8 +3409,6 @@
       "artist": "Nirvana",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -3633,11 +3447,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -3687,11 +3499,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -3739,11 +3549,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -3783,8 +3591,6 @@
       "artist": "Bekar",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -3816,12 +3622,10 @@
       "artist": "47ter",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
         "variete",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -3846,8 +3650,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -3872,11 +3674,9 @@
       "artist": "Metallica",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -3915,8 +3715,6 @@
       "artist": "DragonForce",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "metal"
       ],
@@ -3955,8 +3753,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -3980,8 +3776,6 @@
       "artist": "KIKESA",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4001,8 +3795,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4037,8 +3829,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4064,8 +3854,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4090,8 +3878,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4114,8 +3900,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4142,8 +3926,6 @@
       "artist": "Bigflo & Oli",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -4171,8 +3953,6 @@
       "artist": "Moji x Sboy",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4191,8 +3971,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4227,8 +4005,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4261,8 +4037,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4298,8 +4072,6 @@
       "artist": "Suzuya",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4320,8 +4092,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4342,8 +4112,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4375,8 +4143,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4401,11 +4167,9 @@
       "artist": "Damso",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -4424,8 +4188,6 @@
       "artist": "Gringe",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4445,8 +4207,6 @@
       "artist": "Georgio",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4465,8 +4225,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4489,8 +4247,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4512,8 +4268,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4537,8 +4291,6 @@
       "artist": "KIKESA",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -4558,11 +4310,9 @@
       "artist": "Rammstein",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -4600,11 +4350,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -4637,8 +4385,6 @@
       "artist": "Pink Floyd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -4658,8 +4404,6 @@
       "artist": "Pink Floyd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -4680,8 +4424,6 @@
       "artist": "Pink Floyd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -4705,8 +4447,6 @@
       "artist": "Pink Floyd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -4730,11 +4470,9 @@
       "artist": "Vald",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -4752,11 +4490,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -4798,11 +4534,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -4836,11 +4570,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -4874,11 +4606,9 @@
       "artist": "System Of A Down",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
         "metal",
+        "rock",
         "rap"
       ],
       "endTimes": {
@@ -4909,12 +4639,10 @@
       "artist": "Pierce The Veil",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
+        "metal",
         "pop",
-        "metal"
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -4933,8 +4661,6 @@
       "artist": "Eagles",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -4960,8 +4686,6 @@
       "artist": "Green Day",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -4985,8 +4709,6 @@
       "artist": "Lynyrd Skynyrd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock",
         "blues"
@@ -5014,8 +4736,6 @@
       "artist": "Pink Floyd",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5035,11 +4755,9 @@
       "artist": "Foo Fighters",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -5059,11 +4777,9 @@
       "artist": "Foo Fighters",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "rock",
-        "metal"
+        "metal",
+        "rock"
       ],
       "endTimes": {
         "Tom": [
@@ -5082,11 +4798,9 @@
       "artist": "Coolio",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "funk",
-        "rap"
+        "rap",
+        "funk"
       ],
       "endTimes": {
         "Tom": [
@@ -5136,8 +4850,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5160,8 +4872,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5184,8 +4894,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5206,8 +4914,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5238,8 +4944,6 @@
       "artist": "2TH",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5264,8 +4968,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5293,8 +4995,6 @@
       "artist": "Lomepal",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5319,8 +5019,6 @@
       "artist": "Sex Pistols",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -5340,8 +5038,6 @@
       "artist": "Yuzmv",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5360,8 +5056,6 @@
       "artist": "Sick Puppies",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5381,8 +5075,6 @@
       "artist": "La La Land Cast",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5401,8 +5093,6 @@
       "artist": "Emma Stone",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5421,8 +5111,6 @@
       "artist": "Justin Hurwitz",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5441,8 +5129,6 @@
       "artist": "Justin Hurwitz",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5461,8 +5147,6 @@
       "artist": "Ryan Gosling",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5481,8 +5165,6 @@
       "artist": "Ryan Gosling",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5503,8 +5185,6 @@
       "artist": "No Limit",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5524,8 +5204,6 @@
       "artist": "The Rolling Stones",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -5551,8 +5229,6 @@
       "artist": "Dee Gees",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5571,8 +5247,6 @@
       "artist": "Nirvana",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -5591,8 +5265,6 @@
       "artist": "Ben Mazu\u00e9",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -5611,8 +5283,6 @@
       "artist": "Manau",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5631,8 +5301,6 @@
       "artist": "Twenty One Pilots",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -5651,8 +5319,6 @@
       "artist": "Dire Straits",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rock"
       ],
@@ -5681,11 +5347,9 @@
       "artist": "Columbine",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -5714,11 +5378,9 @@
       "artist": "Columbine",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -5746,11 +5408,9 @@
       "artist": "Columbine",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -5769,11 +5429,9 @@
       "artist": "Columbine",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -5790,8 +5448,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5822,8 +5478,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5847,8 +5501,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5874,11 +5526,9 @@
       "artist": "Luv Resval",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
-        "pop",
-        "rap"
+        "rap",
+        "pop"
       ],
       "endTimes": {
         "Tom": [
@@ -5907,8 +5557,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5933,8 +5581,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5959,8 +5605,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -5980,8 +5624,6 @@
       "artist": "Lujipeka",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6002,8 +5644,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "other"
       ],
@@ -6027,8 +5667,6 @@
       "artist": "DOXX",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6049,8 +5687,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6072,8 +5708,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6099,8 +5733,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6122,8 +5754,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6146,8 +5776,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6170,8 +5798,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6192,8 +5818,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6214,8 +5838,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6236,8 +5858,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6260,8 +5880,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6282,8 +5900,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6304,8 +5920,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6326,8 +5940,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6347,8 +5959,6 @@
       "artist": "Orelsan",
       "group": 15,
       "type": "music",
-      "size": 5,
-      "force": -10,
       "genres": [
         "rap"
       ],
@@ -6367,1942 +5977,2330 @@
     {
       "source": "Marion",
       "target": "Fever",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Tom",
       "target": "Fever",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Victor",
       "target": "Fever",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Marion",
       "target": "D\u00c1KITI",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "D\u00c1KITI",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Mood (feat. iann dior)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Mood (feat. iann dior)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Blinding Lights",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Blinding Lights",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Damdamdeo",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Damdamdeo",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Balance ton quoi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Balance ton quoi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Tout oublier",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Tout oublier",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Oui ou non",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Oui ou non",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Ta reine",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ta reine",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Promesses",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Promesses",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Prisoner (feat. Dua Lipa)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Prisoner (feat. Dua Lipa)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Ne fuis pas",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Tom",
       "target": "Ne fuis pas",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Victor",
       "target": "Ne fuis pas",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Marion",
       "target": "Probl\u00e8mes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Probl\u00e8mes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "D\u00e9saccord\u00e9",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "D\u00e9saccord\u00e9",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Hit Sale (feat. Rom\u00e9o Elvis)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "C\u00f4te Ouest",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "C\u00f4te Ouest",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Trop beau",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Tom",
       "target": "Trop beau",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Victor",
       "target": "Trop beau",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Marion",
       "target": "Dance Monkey",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Dance Monkey",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Immortel",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Immortel",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Prosecco",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Prosecco",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Vivre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Vivre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Bienvenue chez moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Bienvenue chez moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Plus tard",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Plus tard",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "JUSQU'ICI TOUT VA BIEN",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "JUSQU'ICI TOUT VA BIEN",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Tchin tchin",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Tchin tchin",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Marion",
       "target": "Probl\u00e8mes",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Tom",
       "target": "Probl\u00e8mes",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Victor",
       "target": "Probl\u00e8mes",
-      "value": 1
+      "value": 1,
+      "listeners": 3
     },
     {
       "source": "Tom",
       "target": "Mr. Jack",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Mr. Jack",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Stupeflip vite !!!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Stupeflip vite !!!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Bohemian Rhapsody - Remastered 2011",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Bohemian Rhapsody - Remastered 2011",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Antidote",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Antidote",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "American Idiot",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "American Idiot",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Clair de Lune",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Clair de Lune",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Moonlight Sonata (3rd Movement)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Moonlight Sonata (3rd Movement)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Sonne",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Sonne",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Engel",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Engel",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Heart-Shaped Box",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Heart-Shaped Box",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "1000\u00b0C",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "1000\u00b0C",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Pretender",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Pretender",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Have You Ever Seen The Rain",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Have You Ever Seen The Rain",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Du hast",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Du hast",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Violent Pornography",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Violent Pornography",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Raining Blood",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Raining Blood",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ich will",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ich will",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Smells Like Teen Spirit",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Smells Like Teen Spirit",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Come As You Are",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Come As You Are",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Roulette",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Roulette",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "DEUTSCHLAND",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "DEUTSCHLAND",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Sky Is Over",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Sky Is Over",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Yeux disent",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Yeux disent",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Flash",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Flash",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Regarde-moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Regarde-moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Paradise (feat. Lomepal)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Paradise (feat. Lomepal)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "\u00c9videmment",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "\u00c9videmment",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Fly Me to the Moon",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Fly Me to the Moon",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Sound of Silence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Sound of Silence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ascend",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ascend",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Hallelujah",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Hallelujah",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "J't'emm\u00e8ne au vent",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "J't'emm\u00e8ne au vent",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Plus rien ne m'\u00e9tonne",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Plus rien ne m'\u00e9tonne",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "A Little Messed Up",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "A Little Messed Up",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "London Calling - Remastered",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "London Calling - Remastered",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Through The Fire And Flames",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Through The Fire And Flames",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Highway to Hell",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Highway to Hell",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "If Eternity Should Fail",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "If Eternity Should Fail",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Inachev\u00e9s",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Inachev\u00e9s",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "We Will Rock You - Remastered 2011",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "We Will Rock You - Remastered 2011",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ils sont cools",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ils sont cools",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Never Gonna Give You Up",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Never Gonna Give You Up",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Attack",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Attack",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Lonely Day",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Lonely Day",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Basket Case",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Basket Case",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Feuer frei!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Feuer frei!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "You're Gonna Go Far, Kid",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "You're Gonna Go Far, Kid",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Symphony Of Destruction",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Symphony Of Destruction",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Fuck the System",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Fuck the System",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Trooper - 2015 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Trooper - 2015 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Kids Aren't Alright",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Kids Aren't Alright",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Raelsan",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Raelsan",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Back In Black",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Back In Black",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Suicide social",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Suicide social",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Soldiers Of The Wastelands",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Soldiers Of The Wastelands",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Cry Thunder",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Cry Thunder",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Prayer Of The Refugee",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Prayer Of The Refugee",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Fly Me To The Moon",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Fly Me To The Moon",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Aerials",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Aerials",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Empty Walls",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Empty Walls",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "The Beautiful People",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "The Beautiful People",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Run to the Hills - 2015 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Run to the Hills - 2015 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "AMERIKA",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "AMERIKA",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Rape Me",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Rape Me",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "B.Y.O.B.",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "B.Y.O.B.",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Chop Suey!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Chop Suey!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Hypnotize",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Hypnotize",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La mort a du go\u00fbt",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La mort a du go\u00fbt",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Soleil noir",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Soleil noir",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Pi\u00e8ces d\u00e9tach\u00e9es",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Pi\u00e8ces d\u00e9tach\u00e9es",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Enter Sandman",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Enter Sandman",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Fury Of The Storm",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Fury Of The Storm",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Jusqu'o\u00f9 elle m'aime (feat. Nemir)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Jusqu'o\u00f9 elle m'aime (feat. Nemir)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La marelle",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La marelle",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Elle viendra quand m\u00eame",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Elle viendra quand m\u00eame",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "On aboie en silence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "On aboie en silence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Paradis noir (feat. DJ Pone)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Paradis noir (feat. DJ Pone)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Le mal est fait",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Le mal est fait",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Scanner (feat. L\u00e9a Castel)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Scanner (feat. L\u00e9a Castel)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Aujourd'hui",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Aujourd'hui",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Regarde-moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Regarde-moi",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Si seul",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Si seul",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Le chant des sir\u00e8nes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Le chant des sir\u00e8nes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Finir mal",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Finir mal",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Chute d'\u00e9toiles",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Chute d'\u00e9toiles",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Retourne d'o\u00f9 tu viens",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Retourne d'o\u00f9 tu viens",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Qui dit mieux (feat. Orelsan, Vald & Suikon Blaz AD)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Qui dit mieux (feat. Orelsan, Vald & Suikon Blaz AD)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "San",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "San",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Feu de bois",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Feu de bois",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "D\u00e9chir\u00e9 (feat. Orelsan)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "D\u00e9chir\u00e9 (feat. Orelsan)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Dans mon \u00e9l\u00e9ment",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Dans mon \u00e9l\u00e9ment",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La v\u00e9rit\u00e9",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La v\u00e9rit\u00e9",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La pluie (feat. Stromae)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La pluie (feat. Stromae)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "X-men",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "X-men",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Rose",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Rose",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Mein Herz brennt",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Mein Herz brennt",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Question!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Question!",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Another Brick In The Wall, Pt. 2 - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Another Brick In The Wall, Pt. 2 - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Comfortably Numb - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Comfortably Numb - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Money - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Money - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Time - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Time - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Rechute",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Rechute",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Toxicity",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Toxicity",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Radio/Video",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Radio/Video",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Lost In Hollywood",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Lost In Hollywood",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Sugar",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Sugar",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "King For A Day",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "King For A Day",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Hotel California - 2013 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Hotel California - 2013 Remaster",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "21 Guns",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "21 Guns",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Sweet Home Alabama",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Sweet Home Alabama",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Breathe (In The Air) - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Breathe (In The Air) - 2011 Remastered Version",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Making A Fire",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Making A Fire",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Waiting On A War",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Waiting On A War",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Gangsta's Paradise",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Gangsta's Paradise",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Des trous dans la t\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Des trous dans la t\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La petite marchande de porte-clefs",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La petite marchande de porte-clefs",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Double vie",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Double vie",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Montfermeil",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Montfermeil",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Un message imb\u00e9cile",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Un message imb\u00e9cile",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ne me ram\u00e8ne pas",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ne me ram\u00e8ne pas",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "M\u00f4mes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "M\u00f4mes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "God Save The Queen",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "God Save The Queen",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Miroir des limbes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Miroir des limbes",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "You're Going Down",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "You're Going Down",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Another Day Of Sun",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Another Day Of Sun",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Someone In The Crowd",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Someone In The Crowd",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Mia & Sebastian\u2019s Theme",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Mia & Sebastian\u2019s Theme",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Herman\u2019s Habit",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Herman\u2019s Habit",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "A Lovely Night",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "A Lovely Night",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "City Of Stars",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "City Of Stars",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Millions",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Millions",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Paint It, Black - Mono",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Paint It, Black - Mono",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "You Should Be Dancing",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "You Should Be Dancing",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "In Bloom",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "In Bloom",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "J'attends",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "J'attends",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La tribu de Dana",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La tribu de Dana",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Shy Away",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Shy Away",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Sultans Of Swing",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Sultans Of Swing",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Pierre, feuille, papier, ciseaux",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Pierre, feuille, papier, ciseaux",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Les pr\u00e9lis",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Les pr\u00e9lis",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Temps \u00e9lectrique",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Temps \u00e9lectrique",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Enfants terribles",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Enfants terribles",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Poup\u00e9e Russe",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Poup\u00e9e Russe",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ahou",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ahou",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Putain d'\u00e9poque",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Putain d'\u00e9poque",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Had\u00e8s (feat. Lujipeka)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Had\u00e8s (feat. Lujipeka)",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Pas \u00e0 ma place",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Pas \u00e0 ma place",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ao\u00fbt 2008",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ao\u00fbt 2008",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Palapalaba",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Palapalaba",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Le Soleil",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Le Soleil",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "L'odeur de l'essence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "L'odeur de l'essence",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Dans la temp\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Dans la temp\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Shonen",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Shonen",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "La Qu\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "La Qu\u00eate",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ensemble",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ensemble",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Casseurs Flowters Infinity",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Casseurs Flowters Infinity",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Du propre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Du propre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "B\u00e9b\u00e9boa",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "B\u00e9b\u00e9boa",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "R\u00eave mieux",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "R\u00eave mieux",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Seul avec du monde autour",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Seul avec du monde autour",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Manifeste",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Manifeste",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Jour meilleur",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Jour meilleur",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Baise le monde",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Baise le monde",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Dernier verre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Dernier verre",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Ath\u00e9na",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Ath\u00e9na",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Tom",
       "target": "Civilisation",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     },
     {
       "source": "Victor",
       "target": "Civilisation",
-      "value": 1
+      "value": 1,
+      "listeners": 2
     }
   ]
 }

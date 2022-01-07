@@ -37,9 +37,7 @@ def main():
         nodes_links["nodes"].append({
             "id": name,
             "group": "1",
-            "type": "user",
-            "size": 15,
-            "force": -500
+            "type": "user"
         })
 
     groups = {
@@ -59,8 +57,6 @@ def main():
                 "artist": k[0],
                 "group": g,
                 "type": "music",
-                "size": 5,
-                "force": -10,
                 "genres": v["genres"],
                 "endTimes": v["endTimes"],
                 "msTotal": v["msTotal"],
@@ -69,7 +65,8 @@ def main():
                 nodes_links["links"].append({
                     "source": name,
                     "target": k[1],
-                    "value": 1
+                    "value": 1,
+                    "listeners": len(v["listeners"])
                 })
 
     with open('nodes_links.json', 'w') as outfile:
