@@ -88,6 +88,9 @@
                     </ul>
                 </div>
                 <br/>
+                <div>
+                    <svg id="svg_legend"></svg>
+                </div>
             </div>
 
             <div id="graph" class="col-8"></div>
@@ -110,7 +113,9 @@
                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                     <h2>Les Données</h2>
                     <div class="devider"></div>
-                    <p class="subtitle">Un peu d'information</p>
+                    <p class="subtitle">Le graphique ci-dessus représente les liens entre les utilisateurs par les
+                        musiques qu'ils écoutent. On cherche ici à mettre en évidence les musiques en communs entre les
+                        différents membres du projet.</p>
                 </div>
             </div>
         </div>
@@ -136,9 +141,8 @@
                             <span class="rotate-box-icon"><i class="fa fa-circle"></i></span>
                             <div class="rotate-box-info">
                                 <h4>Les cerles ?</h4>
-                                <p class="just">Le graphique représente les liens entre les utilisateurs par les
-                                    musiques qu'ils écoutent. Une grande balle est une personne, et une plus petite une
-                                    musique. </p>
+                                <p class="just">Un cercle coloré symbolise une musique et une image un utilisateur. La
+                                    couleur dépend des genres de la musique, et la taille de la durée d'écoute. </p>
                             </div>
                         </a>
                     </div>
@@ -149,7 +153,7 @@
                             <div class="rotate-box-info">
                                 <h4>Les liens ?</h4>
                                 <p class="just">Des personnes sont liées par une musique si elles l'ont toutes les deux
-                                    écoutées.</p>
+                                    écoutées, selon les filtres en vigeur.</p>
                             </div>
                         </a>
                     </div>
@@ -406,7 +410,7 @@
                             <div class="team-item">
                                 <div class="team-triangle">
                                     <div class="content">
-                                        <img src="img/team/2.png" alt="title"/>
+                                        <img src="img/team/Jeremy.png" alt="title"/>
                                         <div class="team-hover text-center">
                                             <i class="fa fa-male"></i>
                                             <p>Jeremy Kritikos</p>
@@ -541,11 +545,3 @@
 
 </body>
 </html>
-<svg id="mySvg" width="60" height="60">
-    <defs id="mdef">
-        <pattern id="image" x="0" y="0" height="60" width="60">
-            <ellipse ry="15" rx="15" cy="20" cx="30" fill="#e0e0e0"/>
-            <ellipse ry="30" rx="30" cy="70" cx="30.15937" fill="#e0e0e0"/>
-        </pattern>
-    </defs>
-</svg>
