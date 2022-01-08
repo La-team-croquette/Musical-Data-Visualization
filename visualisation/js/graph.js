@@ -29,7 +29,7 @@ function ForceGraph({
     const LS = d3.map(links, linkSource).map(intern);
     const LT = d3.map(links, linkTarget).map(intern);
     if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d.artist + '\n' + d3.sort(d.genres) : d.id);
+    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d3.sort(d.genres) : d.id);
     const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
@@ -220,7 +220,6 @@ function drawGraph() {
         const chart = ForceGraph(nodes_links, {
             nodeId: d => d.id,
             nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(", ") : "user",
-            nodeTitle: d => `${d.id}\n${d.artist}`,
             linkStrokeWidth: l => Math.sqrt(l.value),
             width: parseInt(d3.select('#graph').style('width'), 10),
             height: window.innerHeight * .8,
