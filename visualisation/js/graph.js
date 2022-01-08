@@ -25,6 +25,7 @@ function ForceGraph({
                         invalidation // when this promise resolves, stop the simulation
                     } = {}) {
     // Compute values.
+    const userRadius = 30;
 
     const N = d3.map(nodes, nodeId).map(intern);
     const LS = d3.map(links, linkSource).map(intern);
@@ -76,20 +77,27 @@ function ForceGraph({
         .join("line");
 
     const node = svg.append("g")
+        .selectAll("g")
+        .data(nodes)
+        .join("g")
+        .call(drag(simulation));
+
+    const node_music = node.filter(d => d.type === "music")
+        .append("circle")
+        .attr("r", d => sizeScale(d.msTotal))
         .attr("fill", nodeFill)
         .attr("stroke", nodeStroke)
         .attr("stroke-opacity", nodeStrokeOpacity)
         .attr("stroke-width", nodeStrokeWidth)
-        .selectAll("circle")
-        .data(nodes)
-        .join("circle")
-        .attr("r", d => d.type === "music" ? sizeScale(d.msTotal) : 30)
-        .call(drag(simulation));
+
+    const node_user = node.filter(d => d.type === "user")
+        .append("image")
+        .attr("xlink:href", d => "/img/team/" + d.id + ".png")
+        .attr("width", 2 * userRadius + 2)
+        .attr("height", 2 * userRadius + 2)
 
     if (W) link.attr("stroke-width", ({index: i}) => W[i]);
-    // if (G) node.attr("fill", ({index: i}) => color(G[i]));
-    if (G) node.attr("fill", d => d.type === "music" ? color(G[d.index]) : "url(#image)");
-
+    if (G) node_music.attr("fill", ({index: i}) => color(G[i]));
     if (T) node.append("title").text(({index: i}) => T[i]);
     if (invalidation != null) invalidation.then(() => simulation.stop());
 
@@ -104,24 +112,20 @@ function ForceGraph({
     }
 
     function ticked() {
-        link
-            .attr("x1", d => d.source.x)
+        link.attr("x1", d => d.source.x)
             .attr("y1", d => d.source.y)
             .attr("x2", d => d.target.x)
             .attr("y2", d => d.target.y);
 
-        node
-            // .attr("cx", d => d.x)
-            // .attr("cy", d => d.y)
-            .attr("cy", function (d) {
-                if (d.type === "user" && d.oncey !== "1") {
-                    d.oncey = "1";
-                    d.y = refs[d.id][1];
-                    return refs[d.id][1];
-                } else {
-                    return d.y;
-                }
-            })
+        node.attr("cy", function (d) {
+            if (d.type === "user" && d.oncey !== "1") {
+                d.oncey = "1";
+                d.y = refs[d.id][1];
+                return refs[d.id][1];
+            } else {
+                return d.y;
+            }
+        })
             .attr("cx", function (d) {
                 if (d.type === "user" && d.oncex !== "1") {
                     d.oncex = "1";
@@ -131,6 +135,11 @@ function ForceGraph({
                     return d.x;
                 }
             });
+
+        node_music.attr("cx", d => d.x)
+            .attr("cy", d => d.y)
+        node_user.attr("x", d => d.x - userRadius)
+            .attr("y", d => d.y - userRadius)
     }
 
     function drag(simulation) {
