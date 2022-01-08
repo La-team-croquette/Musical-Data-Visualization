@@ -29,7 +29,7 @@ function ForceGraph({
     const LS = d3.map(links, linkSource).map(intern);
     const LT = d3.map(links, linkTarget).map(intern);
     if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d3.sort(d.genres) : d.id);
+    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d.msTotal / 100 + d3.sort(d.genres) : d.id);
     const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
@@ -138,6 +138,37 @@ function ForceGraph({
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
 
+    //
+    const legend2 = d3.select("#svg_legend2")
+
+    legend2.append("circle")
+        .attr("cx", 20)
+        .attr("cy", 25)
+        .attr("r", sizeScale(d3.max(nodes, n => n.msTotal)))
+        .attr("fill", "white");
+    legend2.append("text")
+        .attr("x", 50)
+        .attr("y", 30)
+        .text(Math.round((d3.max(nodes, n => n.msTotal) / 6000) || 0) + " Minutes d'écoute")
+        .attr("fill", "white")
+        .attr("text-anchor", "left");
+
+    legend2.append("circle")
+        .attr("cx", 20)
+        .attr("cy", 75)
+        .attr("r", sizeScale(d3.min(nodes, n => n.msTotal)))
+        .attr("fill", "white");
+    legend2.append("text")
+        .attr("x", 50)
+        .attr("y", 80)
+        .text(Number.parseFloat((d3.min(nodes, n => n.msTotal) / 6000) || 0).toPrecision(2) +
+            " Minutes d'écoute")
+        .attr("fill", "white")
+        .attr("text-anchor", "left")
+
+
+    // .attr("height", "400px")
+
 
     function intern(value) {
         return value !== null && typeof value === "object" ? value.valueOf() : value;
@@ -216,6 +247,8 @@ function drawGraph() {
 
         d3.select("#svg_legend").selectAll("circle").remove();
         d3.select("#svg_legend").selectAll("text").remove();
+        d3.select("#svg_legend2").selectAll("circle").remove();
+        d3.select("#svg_legend2").selectAll("text").remove();
         const margin = {top: 0, right: 0, bottom: 30, left: 0};
         const chart = ForceGraph(nodes_links, {
             nodeId: d => d.id,
@@ -234,7 +267,7 @@ function drawGraph() {
             .attr("height", window.innerHeight * .8)
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        var svg = document.getElementsByTagName('svg')[1]; //Get svg element
+        var svg = document.getElementsByTagName('svg')[2]; //Get svg element
         svg.appendChild(chart);
 
     })
