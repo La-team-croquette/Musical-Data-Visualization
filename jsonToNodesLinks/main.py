@@ -13,7 +13,6 @@ def main():
 
     data = {}
 
-    id = 0
     for d in all_data:
         key = (d['artistName'], d['trackName'])
         if key not in data:
@@ -36,12 +35,10 @@ def main():
 
     for name in ("Tom", "Marion", "Victor"):
         nodes_links["nodes"].append({
-            "id": id,
-            "name": name,
+            "id": name,
             "group": "1",
             "type": "user"
         })
-        id += 1
 
     groups = {
         "Marion": 4,
@@ -56,8 +53,7 @@ def main():
                 g += groups[v_]
 
             nodes_links["nodes"].append({
-                "id": id,
-                "name": k[1],
+                "id": k[1] + "\n" + k[0],
                 "artist": k[0],
                 "group": g,
                 "type": "music",
@@ -65,11 +61,10 @@ def main():
                 "endTimes": v["endTimes"],
                 "msTotal": v["msTotal"],
             })
-            id += 1
             for name in v["listeners"]:
                 nodes_links["links"].append({
                     "source": name,
-                    "target": k[1],
+                    "target": k[1] + "\n" + k[0],
                     "value": 1,
                     "listeners": len(v["listeners"])
                 })
