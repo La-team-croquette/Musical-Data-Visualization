@@ -61,6 +61,7 @@ function filterMusicStyle(data,stylesToFilter) {
 
     nodes = data.nodes
     links = data.links
+    console.log(links)
 
     persons = nodes.slice(0, 3)
 
@@ -72,7 +73,9 @@ function filterMusicStyle(data,stylesToFilter) {
 
     console.log(filteredNodes)
 
-    filteredLinks = links.filter(link => filteredNodes.some(val => link.target === val.id))
+    filteredLinks = links.filter(link => filteredNodes.some(val => {
+
+        return link['target'] === val.id}))
 
     console.log(filteredLinks)
 

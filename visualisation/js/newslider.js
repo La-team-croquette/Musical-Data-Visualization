@@ -44,11 +44,13 @@ for (var i = 0;i<nb_d_annee_en_tout;i++){
 
 
 // On instancie les différents tableaux en fonction des mois semaine et année
-d3.json("../jsonToNodesLinks/nodes_links.json").then(json => {
+d3.json("../jsonToNodesLinks/nodes_links.json").then(function (json)  {
     filtre(json);
     //console.log(PERSONNE);
     CURRENT_DATA = json;
     ALL_DATAS = json;
+    console.log('Dans Slider.js')
+    console.log(json)
     //On instancie le sliders avec les donnees de tous les jours
     slider.style.display = 'none'
     slider.setAttribute("max", 0);
@@ -159,10 +161,10 @@ function tri_time (tempo, time) {
 
 function mise_en_forme (musics) {
     let nodes = PERSONNE.concat(musics);
-    console.log(PERSONNE)
-    console.log(ALL_DATAS['links'])
-    console.log(nodes)
-    console.log(nodes[4])
+    //console.log(PERSONNE)
+    //console.log(ALL_DATAS['links'])
+    //console.log(nodes)
+    //console.log(nodes[4])
     filteredLink = ALL_DATAS['links'].filter(link => musics.some(val => {
         //console.log(link)
         return link['target']['id'] === val['id']}))
