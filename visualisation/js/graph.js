@@ -155,10 +155,12 @@ function ForceGraph({
 }
 function drawGraph() {
     d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
-        console.log("Je suis ici")
+        //console.log("Je suis ici")
+        console.log('Dans Graphe.js')
         console.log(nodes_links)
-        console.log(CURRENT_DATA)
+        //console.log(CURRENT_DATA)
         nodes_links = filterMusicStyle(CURRENT_DATA, stylesToFilter)
+        //console.log(nodes_links)
         //
 
 
