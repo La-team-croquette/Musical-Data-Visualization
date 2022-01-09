@@ -45,16 +45,21 @@ for (var i = 0;i<nb_d_annee_en_tout;i++){
 
 // On instancie les différents tableaux en fonction des mois semaine et année
 d3.json("../jsonToNodesLinks/nodes_links.json").then(function (json)  {
-    filtre(json);
-    //console.log(PERSONNE);
-    CURRENT_DATA = json;
-    ALL_DATAS = json;
     console.log('Dans Slider.js')
-    console.log(json)
+
+    filtre(json);
+    ALL_DATAS = json;
+    CURRENT_DATA = json;
+    console.log(json['links'])
+    console.log(CURRENT_DATA);
+    console.log(ALL_DATAS['links']);
+
+
     //On instancie le sliders avec les donnees de tous les jours
     slider.style.display = 'none'
     slider.setAttribute("max", 0);
     document.getElementById('day').innerHTML = "Du 23/11/2021 au 24/11/2021";
+    drawGraph()
 });
 
 d3.select('#slider').on('input', e => {
@@ -93,7 +98,7 @@ document.getElementById("number2").onclick = function () {
 document.getElementById("number1").onclick = function () {
     //change first name
     document.getElementById("dropdownMenuButton1").textContent = "Toutes les données"
-    CURRENT_DATA = tri_time(0,0)
+    CURRENT_DATA = mise_en_forme(tri_time(0,0))
     slider.setAttribute("max", 0);
     document.getElementById('day').innerHTML = "Du 23/11/2021 au 24/11/2021";
     TYPE_JOUR =0;
@@ -142,7 +147,8 @@ function tri_time (tempo, time) {
     //On filtre les noeuds en fonction de la date
     //Si tempo est égal à 0, on retourne l'ensemble des noeuds
     if (tempo === 0) {
-        return ALL_DATAS;
+        let resultat = ANNEE[0][1].concat(ANNEE[1][1])
+        return resultat;
     }
     //Si tempo est égal à 1 on filtre sur les semaines
     else if (tempo === 1) {
@@ -165,9 +171,7 @@ function mise_en_forme (musics) {
     //console.log(ALL_DATAS['links'])
     //console.log(nodes)
     //console.log(nodes[4])
-    filteredLink = ALL_DATAS['links'].filter(link => musics.some(val => {
-        //console.log(link)
-        return link['target']['id'] === val['id']}))
+    filteredLink = ALL_DATAS['links'].filter(link => musics.some(val =>  link['target']['id']=== val.id))
     console.log("FILTER")
     console.log(filteredLink)
     return {'links': filteredLink, 'nodes': nodes}
