@@ -24,8 +24,7 @@ function eventCheckbox(_checkbox){
         stylesToFilter = stylesToFilter.filter(item => item !== _checkbox.value)
     }
 
-    drawGraph()
-
+    sliderEvent()
 }
 
 for (let style of music_styles) {
@@ -70,7 +69,9 @@ function filterMusicStyle(data,stylesToFilter) {
 
     filteredNodes = nodes.filter(music => stylesToFilter.some(val => music.genres.includes(val)))
 
-    console.log(filteredNodes)
+    console.log("Input links for styles filter : ")
+    console.log(links)
+
 
     filteredLinks = links.filter(link => filteredNodes.some(val => link["target"]["id"] === val.id))
 

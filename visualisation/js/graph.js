@@ -154,7 +154,7 @@ function ForceGraph({
     return Object.assign(svg.node(), {scales: {color}});
 }
 function drawGraph() {
-    d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
+
         //console.log("Je suis ici")
         console.log('Dans Graphe.js')
         console.log(CURRENT_DATA)
@@ -187,5 +187,5 @@ function drawGraph() {
         var svg = document.getElementsByTagName('svg')[2]; //Get svg element
         svg.appendChild(chart);
 
-    })
+
 }
