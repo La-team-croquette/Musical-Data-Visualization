@@ -51,12 +51,16 @@ div.tooltip {
 
 
 #slider {
-    background: #82CFD0;
-    border: solid 1px #82CFD0;
+    background: darkgrey;
+    border: solid 1px dimgrey;
     border-radius: 8px;
     height: 7px;
     /*width: 356px;*/
     outline: none;
     transition: background 450ms ease-in;
     -webkit-appearance: none;
+}
+
+#day {
+    color : white;
 }

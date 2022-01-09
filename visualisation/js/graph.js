@@ -153,27 +153,41 @@ function ForceGraph({
 
     return Object.assign(svg.node(), {scales: {color}});
 }
+function drawGraph() {
+    d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
+        console.log("Je suis ici")
+        console.log(nodes_links)
+        console.log(CURRENT_DATA)
+        nodes_links = filterMusicStyle(CURRENT_DATA, stylesToFilter)
+        //
 
-d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
 
-    const margin = {top: 0, right: 0, bottom: 30, left: 0};
+        d3.select("#svg_legend").selectAll("circle").remove();
+        d3.select("#svg_legend").selectAll("text").remove();
+        d3.select("#svg_legend2").selectAll("circle").remove();
+        d3.select("#svg_legend2").selectAll("text").remove();
+        const margin = {top: 0, right: 0, bottom: 30, left: 0};
+        const chart = ForceGraph(nodes_links, {
+            nodeId: d => d.id,
+            nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(", ") : "user",
+            linkStrokeWidth: l => Math.sqrt(l.value),
+            width: parseInt(d3.select('#graph').style('width'), 10),
+            height: window.innerHeight * .8,
+            // invalidation // a promise to stop the simulation when the cell is re-run
+        })
 
-    const chart = ForceGraph(nodes_links, {
-        nodeId: d => d.id,
-        nodeGroup: d => d.group,
-        nodeTitle: d => `${d.id}\n${d.artist}`,
-        linkStrokeWidth: l => Math.sqrt(l.value),
-        width: parseInt(d3.select('#graph').style('width'), 10),
-        height: window.innerHeight * .8,
-        // invalidation // a promise to stop the simulation when the cell is re-run
+        d3.select("#graph").selectAll("svg > *").remove();
+
+        d3.select("#graph")
+            .append("svg")
+            .attr("width", "100%")
+            .attr("height", window.innerHeight * .8)
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var svg = document.getElementsByTagName('svg')[2]; //Get svg element
+        svg.appendChild(chart);
+
     })
-    d3.select("#graph")
-        .append("svg")
-        .attr("width", "100%")
-        .attr("height", window.innerHeight * .8)
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+}
 
-    var svg = document.getElementsByTagName('svg')[0]; //Get svg element
-    svg.appendChild(chart);
-
-})
+drawGraph();

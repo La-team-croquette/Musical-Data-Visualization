@@ -78,16 +78,20 @@
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                        Par jour
+                        Toutes les données
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li id="number1"><a class="dropdown-item">Par jour</a></li>
+                        <li id="number1"><a class="dropdown-item">Toutes les données</a></li>
                         <li><a class="dropdown-item" id="number2">Par semaine</a></li>
                         <li><a class="dropdown-item" id="number3">Par mois</a></li>
                         <li><a class="dropdown-item" id="number4">Par année</a></li>
                     </ul>
                 </div>
                 <br/>
+                <div>
+                    <svg id="svg_legend"></svg>
+                    <svg id="svg_legend2"></svg>
+                </div>
             </div>
 
             <div id="graph" class="col-8"></div>
@@ -110,7 +114,9 @@
                 <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                     <h2>Les Données</h2>
                     <div class="devider"></div>
-                    <p class="subtitle">Un peu d'information</p>
+                    <p class="subtitle">Le graphique ci-dessus représente les liens entre les utilisateurs par les
+                        musiques qu'ils écoutent. On cherche ici à mettre en évidence les musiques en communs entre les
+                        différents membres du projet.</p>
                 </div>
             </div>
         </div>
@@ -136,9 +142,8 @@
                             <span class="rotate-box-icon"><i class="fa fa-circle"></i></span>
                             <div class="rotate-box-info">
                                 <h4>Les cerles ?</h4>
-                                <p class="just">Le graphique représente les liens entre les utilisateurs par les
-                                    musiques qu'ils écoutent. Une grande balle est une personne, et une plus petite une
-                                    musique. </p>
+                                <p class="just">Un cercle coloré symbolise une musique et une image un utilisateur. La
+                                    couleur dépend des genres de la musique, et la taille de la durée d'écoute. </p>
                             </div>
                         </a>
                     </div>
@@ -149,7 +154,7 @@
                             <div class="rotate-box-info">
                                 <h4>Les liens ?</h4>
                                 <p class="just">Des personnes sont liées par une musique si elles l'ont toutes les deux
-                                    écoutées.</p>
+                                    écoutées, selon les filtres en vigeur.</p>
                             </div>
                         </a>
                     </div>
@@ -267,8 +272,8 @@
                         <div class="fact-inner">
                             <i class="fa fa-music fa-3x"></i>
                             <div class="extra-space-l"></div>
-                            <span class="counter">6666</span>
-                            <p class="lead">Nombre de morceaux uniques</p>
+                            <span class="counter" id="fact_nb_songs">6666</span>
+                            <p class="lead">Nombre de morceaux écoutés</p>
                         </div>
                     </div>
 
@@ -276,7 +281,7 @@
                         <div class="fact-inner">
                             <i class="fa fa-user fa-3x"></i>
                             <div class="extra-space-l"></div>
-                            <span class="counter">350</span>
+                            <span id="fact_nb_artists" class="counter">350</span>
                             <p class="lead">Nombre d'artistes uniques</p>
                         </div>
                     </div>
@@ -285,7 +290,7 @@
                         <div class="fact-inner">
                             <i class="fa fa-clock-o fa-3x"></i>
                             <div class="extra-space-l"></div>
-                            <span class="counter">456</span>h
+                            <span id="fact_time_total" class="counter">456</span>h
                             <p class="lead">Temps d'écoute total</p>
                         </div>
                     </div>
@@ -294,7 +299,7 @@
                         <div class="fact-inner">
                             <i class="fa fa-users fa-3x"></i>
                             <div class="extra-space-l"></div>
-                            <span class="counter">123</span>
+                            <span id="fact_nb_shared" class="counter">123</span>
                             <p class="lead">Morceaux en commun</p>
                         </div>
                     </div>
@@ -406,7 +411,7 @@
                             <div class="team-item">
                                 <div class="team-triangle">
                                     <div class="content">
-                                        <img src="img/team/2.png" alt="title"/>
+                                        <img src="img/team/Jeremy.png" alt="title"/>
                                         <div class="team-hover text-center">
                                             <i class="fa fa-male"></i>
                                             <p>Jeremy Kritikos</p>
@@ -421,7 +426,7 @@
                             <div class="team-item">
                                 <div class="team-triangle">
                                     <div class="content">
-                                        <img src="img/team/3.png" alt="title"/>
+                                        <img src="img/team/Marion.png" alt="title"/>
                                         <div class="team-hover text-center">
                                             <i class="fa fa-female"></i>
                                             <p>Marion Vertessen</p>
@@ -436,7 +441,7 @@
                             <div class="team-item">
                                 <div class="team-triangle">
                                     <div class="content">
-                                        <img src="img/team/4.png" alt="title"/>
+                                        <img src="img/team/Tom.png" alt="title"/>
                                         <div class="team-hover text-center">
                                             <i class="fa fa-male"></i>
                                             <p>Tom Montauriol</p>
@@ -452,7 +457,7 @@
                             <div class="team-item">
                                 <div class="team-triangle">
                                     <div class="content">
-                                        <img src="img/team/5.png" alt="title"/>
+                                        <img src="img/team/Victor.png" alt="title"/>
                                         <div class="team-hover text-center">
                                             <i class="fa fa-male"></i>
                                             <p>Victor Favre</p>
@@ -528,11 +533,12 @@
 <script src="js/theme.js"></script>
 
 <!--scipts perso-->
+<script src="js/newslider.js"></script>
+<script src="js/facts.js"></script>
 <script src="js/graph.js"></script>
 <script src="js/bar_chart.js"></script>
 <script src="js/musical_style_checkbox.js"></script>
 
-<script src="js/slider.js"></script>
 
 <script>
     document.documentElement.style.overflowX = 'hidden';

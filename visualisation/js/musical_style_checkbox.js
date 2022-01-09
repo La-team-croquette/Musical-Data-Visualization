@@ -1,45 +1,4 @@
-let dataMock = [{
-    "endTime": "2021-01-05 11:28",
-    "artistName": "Lorenzo",
-    "trackName": "Tu le C",
-    "msPlayed": 53393,
-    "genre": ["Pop", "Rap"],
-    "country": "France",
-    "listener": "Tom"
-}, {
-    "endTime": "2021-01-05 11:28",
-    "artistName": "Lorenzo",
-    "trackName": "Tu le C",
-    "msPlayed": 53393,
-    "genre": ["Rock", "Pop"],
-    "country": "France",
-    "listener": "Tom"
-}, {
-    "endTime": "2021-01-05 11:28",
-    "artistName": "Lorenzo",
-    "trackName": "Tu le C",
-    "msPlayed": 53393,
-    "genre": ["Pop"],
-    "country": "France",
-    "listener": "Tom"
-}, {
-    "endTime": "2021-01-05 11:28",
-    "artistName": "Lorenzo",
-    "trackName": "Tu le C",
-    "msPlayed": 53393,
-    "genre": ["Rap"],
-    "country": "France",
-    "listener": "Tom"
-}, {
-    "endTime": "2021-01-05 11:28",
-    "artistName": "Lorenzo",
-    "trackName": "Tu le C",
-    "msPlayed": 53393,
-    "genre": ["Pop", "Rap"],
-    "country": "France",
-    "listener": "Tom"
-}
-]
+
 
 let filteredDataMock
 
@@ -52,12 +11,11 @@ checkbox_div.id = "checkbox_div"
 
 music_styles_card.appendChild(checkbox_div)
 
-let stylesToFilter = [];
+let stylesToFilter = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete'];
 let checkboxes = []
 
 
 function eventCheckbox(_checkbox){
-
 
     if (_checkbox.checked) {
         stylesToFilter.push(_checkbox.value)
@@ -65,11 +23,9 @@ function eventCheckbox(_checkbox){
     else{
         stylesToFilter = stylesToFilter.filter(item => item !== _checkbox.value)
     }
-    filteredDataMock = filterMusicStyle(dataMock,stylesToFilter)
 
-    console.log("Checkbox event")
-    console.log(stylesToFilter)
-    console.log(filteredDataMock)
+    drawGraph()
+
 }
 
 for (let style of music_styles) {
@@ -82,6 +38,7 @@ for (let style of music_styles) {
     input.name = "flexRadioDefault"
     input.id = "flexRadio" + style
     input.value = style
+    input.checked = true
     input.setAttribute("onchange", "eventCheckbox(this)");
 
     let label = document.createElement("label")
@@ -101,5 +58,27 @@ for (let style of music_styles) {
 
 
 function filterMusicStyle(data,stylesToFilter) {
-    return data.filter(music => stylesToFilter.some(val => music.genre.includes(val)))
+
+    nodes = data.nodes
+    links = data.links
+
+    persons = nodes.slice(0, 3)
+
+    nodes.shift()
+    nodes.shift()
+    nodes.shift()
+
+    filteredNodes = nodes.filter(music => stylesToFilter.some(val => music.genres.includes(val)))
+
+    console.log(filteredNodes)
+
+    filteredLinks = links.filter(link => filteredNodes.some(val => link.target === val.id))
+
+    console.log(filteredLinks)
+
+    data.nodes = persons.concat(filteredNodes)
+    data.links = filteredLinks
+
+
+    return data
 }
