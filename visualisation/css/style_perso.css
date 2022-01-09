@@ -60,7 +60,7 @@ body {
 }
 #filter_date {
     float: left;
-    margin: 2em;
+    margin-left: 1em;
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
 
