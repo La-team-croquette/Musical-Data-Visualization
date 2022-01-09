@@ -241,19 +241,17 @@ function drawGraph() {
     d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
         //console.log("Je suis ici")
         console.log('Dans Graphe.js')
-        console.log(nodes_links)
-        //console.log(CURRENT_DATA)
-        nodes_links = filterMusicStyle(CURRENT_DATA, stylesToFilter)
-        //console.log(nodes_links)
-        //
+        console.log(CURRENT_DATA)
 
+        //let test = filterMusicStyle(CURRENT_DATA, stylesToFilter)
+        //console.log(test)
 
         d3.select("#svg_legend").selectAll("circle").remove();
         d3.select("#svg_legend").selectAll("text").remove();
         d3.select("#svg_legend2").selectAll("circle").remove();
         d3.select("#svg_legend2").selectAll("text").remove();
         const margin = {top: 0, right: 0, bottom: 30, left: 0};
-        const chart = ForceGraph(nodes_links, {
+        const chart = ForceGraph(CURRENT_DATA, {
             nodeId: d => d.id,
             nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(", ") : "user",
             linkStrokeWidth: l => Math.sqrt(l.value),
