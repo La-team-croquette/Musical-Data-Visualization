@@ -1,9 +1,11 @@
-svg {
+body {
+    background-color: #363940;
     /*background-color: rgba(0, 100, 0, 0.2);*/
 }
 
 #graph {
     /*background-color: rgba(100, 0, 0, 0.2);*/
+
 }
 
 #svg_legend {
@@ -13,6 +15,22 @@ svg {
 .ppp {
     padding-top: 10px;
     text-align: center;
+    font-family: Roboto, sans-serif;
+
+}
+
+.title{
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    background-color: #363940;
+
+}
+
+#text-carousel-intro-section {
+    background-color: #363940;
 }
 
 .just {
@@ -21,18 +39,25 @@ svg {
 
 
 .card {
-    color: #363940;
+    color: white;
 }
 
 #checkbox_div {
     margin: 1em;
 }
 
-#musical_style_card {
-    margin: 2em;
-    /*background-color: rgba(255, 255, 255, 0.2);*/
-}
 
+
+#musical_style_card {
+    padding: 1em;
+    margin-right: 5em;
+    color: white;
+    height: fit-content;
+    width: 95%;
+}
+#musical_style_header{
+    font-size: 20px;
+}
 #filter_date {
     float: left;
     margin: 2em;
@@ -55,12 +80,15 @@ div.tooltip {
 
 
 #slider {
-    background: #82CFD0;
+
     border: solid 1px #82CFD0;
     border-radius: 8px;
     height: 7px;
+
     /*width: 356px;*/
     outline: none;
     transition: background 450ms ease-in;
     -webkit-appearance: none;
+    font-family: Roboto, sans-serif;
+
 }

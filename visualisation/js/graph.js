@@ -264,7 +264,7 @@ function drawGraph() {
         d3.select("#graph")
             .append("svg")
             .attr("width", "100%")
-            .attr("height", window.innerHeight * .8)
+            .attr("height", window.innerHeight * .9)
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         var svg = document.getElementsByTagName('svg')[2]; //Get svg element
