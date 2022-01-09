@@ -41,7 +41,6 @@ function create_barchart2(filename, id_chart, margin, width, height) {
         x.domain(time_by_artist_json.map(d => d.artistName));
         y.domain([0, d3.max(time_by_artist_json, d => d.msTotal / 3600000)]);
         const max_x = d3.max(time_by_artist_json, d => d.msTotal / 3600000);
-        console.log(max_x)
 
         svg.append("g")
             .call(d3.axisLeft(y).ticks(6));

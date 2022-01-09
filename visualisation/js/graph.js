@@ -64,7 +64,7 @@ function ForceGraph({
     // Construct the forces.
     const forceNode = d3.forceManyBody();
     const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
-    if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -sizeScale(d.msTotal) : -500);
+    if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -(sizeScale(d.msTotal) * 1.5) : -800);
     if (linkStrength !== undefined) forceLink.strength(d => 0.05);
 
     const simulation = d3.forceSimulation(nodes)
@@ -259,7 +259,7 @@ function drawGraph() {
             // invalidation // a promise to stop the simulation when the cell is re-run
         })
 
-        d3.select("#graph").selectAll("svg > *").remove();
+        d3.select("#graph").selectAll("#graph > *").remove();
 
         d3.select("#graph")
             .append("svg")
