@@ -29,7 +29,7 @@ function ForceGraph({
     const LS = d3.map(links, linkSource).map(intern);
     const LT = d3.map(links, linkTarget).map(intern);
     if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + d.msTotal / 100 + d3.sort(d.genres) : d.id);
+    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + Math.round(d.msTotal / 6000) + "m d'écoute\n" + d3.sort(d.genres) : d.id);
     const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
@@ -105,7 +105,7 @@ function ForceGraph({
 
     const node_user = node.filter(d => d.type === "user")
         .append("image")
-        .attr("xlink:href", d => "/img/team/" + d.id + ".png")
+        .attr("xlink:href", d => "img/team/" + d.id + ".png")
         .attr("width", 2 * userRadius + 2)
         .attr("height", 2 * userRadius + 2)
 
