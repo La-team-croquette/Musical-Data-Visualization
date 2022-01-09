@@ -64,7 +64,7 @@ function ForceGraph({
     // Construct the forces.
     const forceNode = d3.forceManyBody();
     const forceLink = d3.forceLink(links).id(({index: i}) => N[i]);
-    if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -(sizeScale(d.msTotal) * 1.5) : -800);
+    if (nodeStrength !== undefined) forceNode.strength(d => d.type === "music" ? -(sizeScale(d.msTotal) * 1.5) : -500);
     if (linkStrength !== undefined) forceLink.strength(d => 0.05);
 
     const simulation = d3.forceSimulation(nodes)
@@ -237,39 +237,41 @@ function ForceGraph({
 
     return Object.assign(svg.node(), {scales: {color}});
 }
+
 function drawGraph() {
 
-        //console.log("Je suis ici")
-        console.log('Dans Graphe.js')
-        console.log(CURRENT_DATA)
+    //console.log("Je suis ici")
+    // console.log('Dans Graphe.js')
+    // console.log(CURRENT_DATA)
 
-        //let test = filterMusicStyle(CURRENT_DATA, stylesToFilter)
-        //console.log(test)
+    //let test = filterMusicStyle(CURRENT_DATA, stylesToFilter)
+    //console.log(test)
 
-        d3.select("#svg_legend").selectAll("circle").remove();
-        d3.select("#svg_legend").selectAll("text").remove();
-        d3.select("#svg_legend2").selectAll("circle").remove();
-        d3.select("#svg_legend2").selectAll("text").remove();
-        const margin = {top: 0, right: 0, bottom: 30, left: 0};
-        const chart = ForceGraph(CURRENT_DATA, {
-            nodeId: d => d.id,
-            nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(", ") : "user",
-            linkStrokeWidth: l => Math.sqrt(l.value),
-            width: parseInt(d3.select('#graph').style('width'), 10),
-            height: window.innerHeight * .8,
-            // invalidation // a promise to stop the simulation when the cell is re-run
-        })
+    d3.select("#svg_legend").selectAll("circle").remove();
+    d3.select("#svg_legend").selectAll("text").remove();
+    d3.select("#svg_legend2").selectAll("circle").remove();
+    d3.select("#svg_legend2").selectAll("text").remove();
 
-        d3.select("#graph").selectAll("#graph > *").remove();
+    const margin = {top: 0, right: 0, bottom: 30, left: 0};
+    const chart = ForceGraph(CURRENT_DATA, {
+        nodeId: d => d.id,
+        nodeGroup: d => d.type === "music" ? d3.sort(d.genres).join(", ") : "user",
+        linkStrokeWidth: l => Math.sqrt(l.value),
+        width: parseInt(d3.select('#graph').style('width'), 10),
+        height: window.innerHeight * .8,
+        // invalidation // a promise to stop the simulation when the cell is re-run
+    })
 
-        d3.select("#graph")
-            .append("svg")
-            .attr("width", "100%")
-            .attr("height", window.innerHeight * .8)
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    d3.select("#graph").selectAll("#graph > *").remove();
 
-        var svg = document.getElementsByTagName('svg')[2]; //Get svg element
-        svg.appendChild(chart);
+    d3.select("#graph")
+        .append("svg")
+        .attr("width", "100%")
+        .attr("height", window.innerHeight * .8)
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    let svg = document.getElementsByTagName('svg')[2]; //Get svg element
+    svg.appendChild(chart);
 
 
 }

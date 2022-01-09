@@ -1,8 +1,6 @@
-
-
 let filteredDataMock
 
-let music_styles = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete']
+let music_styles = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete', 'other']
 
 let music_styles_card = document.getElementById("musical_style_card")
 
@@ -11,16 +9,15 @@ checkbox_div.id = "checkbox_div"
 
 music_styles_card.appendChild(checkbox_div)
 
-let stylesToFilter = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete'];
+let stylesToFilter = ['pop', 'rock', 'rap', 'reggae', 'metal', 'lo-fi', 'jazz', 'funk', 'blues', 'variete', 'other'];
 let checkboxes = []
 
 
-function eventCheckbox(_checkbox){
+function eventCheckbox(_checkbox) {
 
     if (_checkbox.checked) {
         stylesToFilter.push(_checkbox.value)
-    }
-    else{
+    } else {
         stylesToFilter = stylesToFilter.filter(item => item !== _checkbox.value)
     }
 
@@ -55,8 +52,7 @@ for (let style of music_styles) {
 }
 
 
-
-function filterMusicStyle(data,stylesToFilter) {
+function filterMusicStyle(data, stylesToFilter) {
 
     nodes = data.nodes
     links = data.links
@@ -69,15 +65,15 @@ function filterMusicStyle(data,stylesToFilter) {
 
     filteredNodes = nodes.filter(music => stylesToFilter.some(val => music.genres.includes(val)))
 
-    console.log("Input links for styles filter : ")
-    console.log(links)
+    // console.log("Input links for styles filter : ")
+    // console.log(links)
 
 
     filteredLinks = links.filter(link => filteredNodes.some(val => link["target"]["id"] === val.id))
 
-    console.log("filteredLinks")
+    // console.log("filteredLinks")
 
-    console.log(filteredLinks)
+    // console.log(filteredLinks)
 
     data.nodes = persons.concat(filteredNodes)
     data.links = filteredLinks
