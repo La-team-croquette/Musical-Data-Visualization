@@ -34,8 +34,8 @@ function create_barchart2(filename, id_chart, margin, width, height) {
         });
         time_by_artist_json.sort((a, b) => a.msTotal < b.msTotal)
 
-        const nb_elements = 100;
-        time_by_artist_json.splice(nb_elements, time_by_artist_json.length - 1)
+        const nb_elements = 50;
+        time_by_artist_json.splice(nb_elements, time_by_artist_json.length - 1);
 
 
         x.domain(time_by_artist_json.map(d => d.artistName));

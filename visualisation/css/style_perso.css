@@ -19,7 +19,7 @@ body {
 
 }
 
-.title{
+.title {
     font-family: Roboto, sans-serif;
     color: white;
     padding: 10px;
@@ -37,6 +37,10 @@ body {
     text-align: justify;
 }
 
+.center {
+    text-align: center;
+}
+
 
 .card {
     color: white;
@@ -47,7 +51,6 @@ body {
 }
 
 
-
 #musical_style_card {
     padding: 1em;
     margin-right: 5em;
@@ -55,9 +58,11 @@ body {
     height: fit-content;
     width: 95%;
 }
-#musical_style_header{
+
+#musical_style_header {
     font-size: 20px;
 }
+
 #filter_date {
     float: left;
     margin-left: 1em;
@@ -94,6 +99,6 @@ div.tooltip {
 }
 
 #day {
-    color : white;
+    color: white;
 }
 
