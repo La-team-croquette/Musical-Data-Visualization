@@ -76,8 +76,8 @@ function create_barchart(list_files, id_chart, margin, width, height) {
     })
 }
 
-const margin = {top: 20, right: 20, bottom: 50, left: 50},
+const margin = {top: 20, right: 20, bottom: 150, left: 50},
     width = 630 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 list_files = ["../data/Marion.json", "../data/Tom.json", "../data/Victor.json"]
 create_barchart(list_files, '#chart_count', margin, width, height)

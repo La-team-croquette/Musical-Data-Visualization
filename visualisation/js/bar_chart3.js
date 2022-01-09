@@ -54,12 +54,25 @@ function create_barchart3(filename, id_chart, margin, width, height, who) {
         y.domain([0, d3.max(user_time, d => d.msTotal / 3600000)]);
         const max_x = d3.max(user_time, d => d.msTotal / 3600000);
 
+        let bla = [];
+        daylist.forEach(function (d) {
+            if (!bla.includes(d.substring(0, 7))) {
+                bla.push(d.substring(0, 7));
+            }
+        })
+        const x2 = d3.scaleBand()
+            .range([0, width])
+            .padding(0.1)
+            .domain(bla);
+
         svg.append("g")
-            .call(d3.axisLeft(y).ticks(6));
+            .call(d3.axisLeft(y).ticks(10))
+            .style("color", "white");
 
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x).tickSize(0))
+            .style("color", "white")
+            .call(d3.axisBottom(x2))
             .selectAll("text")
             .style("text-anchor", "end")
             .attr("dx", "-.8em")
@@ -91,7 +104,7 @@ function create_barchart3(filename, id_chart, margin, width, height, who) {
 
 }
 
-const margin3 = {top: 20, right: 20, bottom: 50, left: 50},
+const margin3 = {top: 20, right: 20, bottom: 130, left: 50},
     width3 = 1800 - margin3.left - margin3.right,
     height3 = 400 - margin3.top - margin3.bottom;
 create_barchart3("../data/formated_json.json", '#chart_tom', margin3, width3, height3, "Tom")
