@@ -237,11 +237,12 @@ function ForceGraph({
 
     return Object.assign(svg.node(), {scales: {color}});
 }
-
 function drawGraph() {
     d3.json("../jsonToNodesLinks/nodes_links.json").then(function (nodes_links) {
-
-        nodes_links = filterMusicStyle(nodes_links, stylesToFilter)
+        console.log("Je suis ici")
+        console.log(nodes_links)
+        console.log(CURRENT_DATA)
+        nodes_links = filterMusicStyle(CURRENT_DATA, stylesToFilter)
         //
 
 
@@ -264,7 +265,7 @@ function drawGraph() {
         d3.select("#graph")
             .append("svg")
             .attr("width", "100%")
-            .attr("height", window.innerHeight * .9)
+            .attr("height", window.innerHeight * .8)
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         var svg = document.getElementsByTagName('svg')[2]; //Get svg element
@@ -272,7 +273,3 @@ function drawGraph() {
 
     })
 }
-
-drawGraph();
-
-

@@ -80,8 +80,8 @@ div.tooltip {
 
 
 #slider {
-
-    border: solid 1px #82CFD0;
+    background: darkgrey;
+    border: solid 1px dimgrey;
     border-radius: 8px;
     height: 7px;
 
@@ -91,4 +91,8 @@ div.tooltip {
     -webkit-appearance: none;
     font-family: Roboto, sans-serif;
 
+}
+
+#day {
+    color : white;
 }
