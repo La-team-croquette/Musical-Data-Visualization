@@ -65,11 +65,14 @@ d3.select('#slider').on('input', e => sliderEvent());
 
 function sliderEvent() {
 
+
+
+
     var val = document.getElementById('slider').value;
     //console.log(val)
     if (TYPE_JOUR === 0) {
         CURRENT_DATA = mise_en_forme(tri_time(0, val));
-        drawGraph()
+        drawGraph();
     }
     if (TYPE_JOUR === 1) {
         document.getElementById('day').innerHTML = SEMAINES[val][0];
@@ -85,7 +88,7 @@ function sliderEvent() {
         document.getElementById('day').innerHTML = ANNEE[val][0];
         CURRENT_DATA = mise_en_forme(tri_time(3, val));
         //console.log(CURRENT_DATA)
-        drawGraph()
+        drawGraph();
     }
 
 }
@@ -153,8 +156,7 @@ function tri_time(tempo, time) {
     //On filtre les noeuds en fonction de la date
     //Si tempo est égal à 0, on retourne l'ensemble des noeuds
     if (tempo === 0) {
-        let resultat = ANNEE[0][1].concat(ANNEE[1][1])
-        return resultat;
+        return ALL_DATAS["nodes"].filter(node =>!PERSONNE.some(person => person.id === node.id));;
     }
     //Si tempo est égal à 1 on filtre sur les semaines
     else if (tempo === 1) {
@@ -175,14 +177,14 @@ function mise_en_forme(musics) {
 
     musics = musics.filter(music => stylesToFilter.some(val => music.genres.includes(val)))
 
+
     let nodes = PERSONNE.concat(musics);
     //console.log(PERSONNE)
-    // console.log(ALL_DATAS['links'])
+
     //console.log(nodes)
     //console.log(nodes[4])
     filteredLink = ALL_DATAS['links'].filter(link => musics.some(val => link['target']['id'] === val.id))
     // console.log("FILTER")
-    // console.log(filteredLink)
     return {'links': filteredLink, 'nodes': nodes}
 }
 
