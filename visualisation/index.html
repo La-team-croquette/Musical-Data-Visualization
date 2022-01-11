@@ -233,14 +233,14 @@
         <div>
             <div class="container">
                 <div class="row">
+
                     <div class="col-sm-12">
-                        <div class="skill-bar wow slideInLeft" data-wow-delay="0.2s">
-                            <div class="progress-lebel">
-                                <h6 class="center"> Répartition des genres écouté </h6>
+                            <div>
+                                <h5 class="center" id="not_displayed"> Répartition des genres écouté  </h5>
                             </div>
-                            <div class="center" id="piechart" onload="blablabla()"></div>
-                        </div>
+                            <div onscroll="myFunction()" class="center" id="piechart"></div>
                     </div>
+
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
         </div>
@@ -501,6 +501,21 @@
     document.documentElement.style.overflowX = 'hidden';
 </script>
 
+
+<script>
+    window.addEventListener('scroll',() =>{
+        var html = document.documentElement;
+        try{
+            var rect = document.getElementById('not_displayed').getBoundingClientRect();
+            if(rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || html.clientHeight) && rect.right <= (window.innerWidth || html.clientWidth)){
+                document.getElementById('not_displayed').id = "displayed"
+                draw_pie();
+            }
+        }
+        catch (error){}
+    })
+
+</script>
 
 </body>
 </html>
