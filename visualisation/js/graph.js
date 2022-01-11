@@ -104,6 +104,7 @@ function ForceGraph({
         .attr("r", d => sizeScale(d.msTotal))
         .attr("fill", d => color(d.genres.join(", ")))
         .attr("stroke", nodeStroke)
+        .attr("class", "circle-graph")
         .attr("stroke-opacity", nodeStrokeOpacity)
         .attr("stroke-width", nodeStrokeWidth)
         .on('mousemove', function (e, d) {

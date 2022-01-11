@@ -106,4 +106,8 @@ li:hover {
     background-color: #363940;
 }
 
+.circle-graph:hover {
+    stroke: red;
+    stroke-width: 2.5;
+}
 
