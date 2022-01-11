@@ -32,7 +32,7 @@ d3.json("../data/genre_count.json").then(function (d) {
 // retrieve the svg in which to plot the viz
     const svg = d3.select('#piechart')
         .append("svg")
-        .attr("id", "svg")
+        .attr("id", "svg_pie")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom);
 
@@ -68,7 +68,7 @@ d3.json("../data/genre_count.json").then(function (d) {
         .attr('transform', 'rotate(-90)')
         .attr('fill', 'none')
         .attr('stroke', 'hsla(0, 0%, 0%, 0.08')
-        .attr('stroke-width', strokeWidth+6)
+        .attr('stroke-width', strokeWidth+2)
         .attr('stroke-linecap', 'round')
         // hide the stroke of the circle using the radius
         // this to compute the circumference of the shape
@@ -81,7 +81,7 @@ d3.json("../data/genre_count.json").then(function (d) {
     const pie = d3
         .pie()
         .sort(null)
-        .padAngle(0.124)
+        .padAngle(0.12)
         // use either the value or the percentage in the dataset
         .value(d => d.value);
 
@@ -164,7 +164,7 @@ d3.json("../data/genre_count.json").then(function (d) {
             return `translate(${x + offset} ${y})`;
         })
         .html(({ data: d }) => `
-    <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${d.percentage}% / ${d.value}   </tspan>
+    <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${(d.percentage*100).toFixed(2)}% / ${d.value}   </tspan>
   `)
         .style('opacity', 0)
         .style('visibility', 'hidden');
@@ -185,38 +185,38 @@ d3.json("../data/genre_count.json").then(function (d) {
         .on('end', () => {
             // immediately set the stroke-dasharray and stroke-dashoffset properties to match the length of the path elements
             // using vanilla JavaScript
-            const paths = document.querySelectorAll('svg g g path');
+            const paths = document.querySelectorAll('svg_pie g g path');
             paths.forEach((path) => {
                 const length = path.getTotalLength();
                 path.setAttribute('stroke-dasharray', length);
                 path.setAttribute('stroke-dashoffset', length);
             });
 
-            const duration = 500;
+            const duration = 750;
             // transition the path elements to stroke-dashoffset 0
             d3
-                .selectAll('svg g g path')
+                .selectAll('#svg_pie g g path')
                 .transition()
                 .ease(d3.easeLinear)
                 .delay((d, i) => i * duration)
-                .duration(duration)
+                .duration(duration * 2.8)
                 .attr('stroke-dashoffset', 0);
 
             // transition the line elements elements to stroke-dashoffset 0
             d3
-                .selectAll('svg g g line')
+                .selectAll('#svg_pie g g line')
                 .transition()
                 .ease(d3.easeLinear)
                 .delay((d, i) => i * duration + duration / 2.5)
-                .duration(duration / 3)
+                .duration(duration / 2)
                 .attr('stroke-dashoffset', 0);
 
             // transition the text elements to opacity 1 and visibility visible
             d3
-                .selectAll('svg g g text')
+                .selectAll('#svg_pie g g text')
                 .transition()
                 .ease(d3.easeLinear)
-                .delay((d, i) => i * duration + duration / 2)
+                .delay((d, i) => i * duration + duration / 2.3)
                 .duration(duration / 2)
                 .style('opacity', 1)
                 .style('visibility', 'visible');
