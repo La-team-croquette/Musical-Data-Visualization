@@ -142,7 +142,7 @@ function ForceGraph({
 
 
     const legend = d3.select("#svg_legend")
-        .attr("height", "400px")
+        .attr("height", "450px")
 
     legend.selectAll("mydots")
         .data(genres)

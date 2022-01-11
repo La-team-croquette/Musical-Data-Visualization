@@ -59,12 +59,14 @@ body {
     width: 95%;
 }
 
-#musical_style_header {
+.musical_style_header {
     font-size: 20px;
+    color: white;
 }
 
 #filter_date {
     float: left;
+    padding: 1em;
     margin-left: 1em;
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
