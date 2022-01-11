@@ -13,9 +13,9 @@ d3.json("../data/genre_count.json").then(function (d) {
         '#BA3F1D',
         '#393E41'
     ]
-    for (const i in data){
-        console.log(data[i])
-        console.log(i)
+    for (const i in data) {
+        // console.log(data[i])
+        // console.log(i)
         data[i]['color'] = color_list[i];
     }
     const margin = {
@@ -68,7 +68,7 @@ d3.json("../data/genre_count.json").then(function (d) {
         .attr('transform', 'rotate(-90)')
         .attr('fill', 'none')
         .attr('stroke', 'hsla(0, 0%, 0%, 0.08')
-        .attr('stroke-width', strokeWidth+2)
+        .attr('stroke-width', strokeWidth + 2)
         .attr('stroke-linecap', 'round')
         // hide the stroke of the circle using the radius
         // this to compute the circumference of the shape
@@ -89,8 +89,8 @@ d3.json("../data/genre_count.json").then(function (d) {
     const arc = d3
         .arc()
         // have the arc overlaid on top of the stroke of the circle
-        .innerRadius(radius-2)
-        .outerRadius(radius+2);
+        .innerRadius(radius - 2)
+        .outerRadius(radius + 2);
 
     /* for each data point include the following structure
     g             // wrapping all arcs
@@ -138,7 +138,7 @@ d3.json("../data/genre_count.json").then(function (d) {
         })
         .attr('y1', 0)
         .attr('y2', 0)
-        .attr('stroke', ({ data: d }) => d.color)
+        .attr('stroke', ({data: d}) => d.color)
         .attr('stroke-width', 2)
         .attr('transform', (d) => {
             const [x, y] = arc.centroid(d);
@@ -163,8 +163,8 @@ d3.json("../data/genre_count.json").then(function (d) {
             const offset = x > 0 ? 60 : -60;
             return `translate(${x + offset} ${y})`;
         })
-        .html(({ data: d }) => `
-    <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${(d.percentage*100).toFixed(2)}% / ${d.value}   </tspan>
+        .html(({data: d}) => `
+    <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${(d.percentage * 100).toFixed(2)}% / ${d.value}   </tspan>
   `)
         .style('opacity', 0)
         .style('visibility', 'hidden');
@@ -194,8 +194,13 @@ d3.json("../data/genre_count.json").then(function (d) {
 
             const duration = 750;
             // transition the path elements to stroke-dashoffset 0
-            d3
-                .selectAll('#svg_pie g g path')
+
+            d3.selectAll('#svg_pie')
+                .on("load", function () {
+                    print("OUI");
+                })
+
+            d3.selectAll('#svg_pie g g path')
                 .transition()
                 .ease(d3.easeLinear)
                 .delay((d, i) => i * duration)
@@ -220,5 +225,10 @@ d3.json("../data/genre_count.json").then(function (d) {
                 .duration(duration / 2)
                 .style('opacity', 1)
                 .style('visibility', 'visible');
+
         });
 });
+
+function blablabla() {
+    console.log("blablabla")
+}
