@@ -29,7 +29,7 @@ function ForceGraph({
     const LS = d3.map(links, linkSource).map(intern);
     const LT = d3.map(links, linkTarget).map(intern);
     if (nodeTitle === undefined) nodeTitle = (_, i) => N[i];
-    const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + Math.round(d.msTotal / 6000) + "m d'écoute\n" + d3.sort(d.genres) : d.id);
+    // const T = nodeTitle == null ? null : d3.map(nodes, d => d.type === "music" ? d.id + '\n' + Math.round(d.msTotal / 6000) + "m d'écoute\n" + d3.sort(d.genres) : d.id);
     const G = nodeGroup == null ? null : d3.map(nodes, nodeGroup).map(intern);
     const W = typeof linkStrokeWidth !== "function" ? null : d3.map(links, linkStrokeWidth);
 
@@ -73,6 +73,10 @@ function ForceGraph({
         .force("center", d3.forceCenter())
         .on("tick", ticked);
 
+    const tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'hidden tooltip');
+
 
     const svg = d3.create("svg")
         .attr("width", width)
@@ -102,14 +106,38 @@ function ForceGraph({
         .attr("stroke", nodeStroke)
         .attr("stroke-opacity", nodeStrokeOpacity)
         .attr("stroke-width", nodeStrokeWidth)
+        .on('mousemove', function (e, d) {
+            const mousePosition = [e.pageX, e.pageY];
+            tooltip.classed('hidden', false)
+                .attr('style', 'left:' + (mousePosition[0] + 15) +
+                    'px; top:' + (mousePosition[1] - 35) + 'px')
+
+                .html("Titre : " + d.id.split('\n')[0] + ',<br/>' +
+                    "Artiste : " + d.id.split('\n')[1] + ',<br/>' +
+                    "Temps : " + (d.msTotal / 6000).toFixed(1) + "m d'écoute,<br/>" +
+                    "Genre(s) : " + d3.sort(d.genres));
+        })
+        .on('mouseout', function () {
+            tooltip.classed('hidden', true);
+        });
 
     const node_user = node.filter(d => d.type === "user")
         .append("image")
         .attr("xlink:href", d => "img/team/" + d.id + ".png")
         .attr("width", 2 * userRadius + 2)
         .attr("height", 2 * userRadius + 2)
+        .on('mousemove', function (e, d) {
+            const mousePosition = [e.pageX, e.pageY];
+            tooltip.classed('hidden', false)
+                .attr('style', 'left:' + (mousePosition[0] + 15) +
+                    'px; top:' + (mousePosition[1] - 35) + 'px')
+                .html("<b>" + d.id + "</b>");
+        })
+        .on('mouseout', function () {
+            tooltip.classed('hidden', true);
+        });
 
-    if (T) node.append("title").text(({index: i}) => T[i]);
+    // if (T) node.append("title").text(({index: i}) => T[i]);
 
 
     const legend = d3.select("#svg_legend")
