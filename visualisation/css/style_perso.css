@@ -12,11 +12,14 @@ body {
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
 
+.custom_font{
+    font-family: Roboto, sans-serif;
+}
+
 .ppp {
     padding-top: 10px;
     text-align: center;
     font-family: Roboto, sans-serif;
-
 }
 
 .title {
