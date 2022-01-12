@@ -1,3 +1,5 @@
+let colorsGRAPH = undefined
+
 function ForceGraph({
                         nodes, // an iterable of node objects (typically [{id}, …])
                         links // an iterable of link objects (typically [{source, target}, …])
@@ -56,6 +58,7 @@ function ForceGraph({
     // Array.prototype.push.apply(c, d3.schemeOranges[3])
     // Array.prototype.push.apply(c, d3.schemePurples[3])
     const color = nodeGroup == null ? null : d3.scaleOrdinal(nodeGroups, c);
+    colorsGRAPH = color;
 
     let sizeScale = d3.scaleLinear()
         .domain([d3.min(nodes, n => n.msTotal), d3.max(nodes, n => n.msTotal)])
