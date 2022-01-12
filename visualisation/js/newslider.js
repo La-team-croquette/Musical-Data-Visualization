@@ -57,7 +57,7 @@ d3.json("../jsonToNodesLinks/nodes_links.json").then(function (json) {
     //On instancie le sliders avec les donnees de tous les jours
     slider.style.display = 'none'
     slider.setAttribute("max", 0);
-    document.getElementById('day').innerHTML = "Du 23/11/2021 au 24/11/2021";
+    document.getElementById('day').innerHTML = "Du 23/11/2020 au 24/11/2021";
     drawGraph()
 });
 
