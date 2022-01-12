@@ -38,8 +38,6 @@ function create_barchart(list_files, id_chart, margin, width, height) {
         x.domain(count_musics.map(d => d.name))
         y.domain([0, d3.max(count_musics, d => d.count)])
 
-        let colors = d3.scaleOrdinal(d3.schemeCategory10);
-
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x).tickSize(0))
@@ -52,10 +50,16 @@ function create_barchart(list_files, id_chart, margin, width, height) {
         svg.append("g")
             .call(d3.axisLeft(y).ticks(6));
 
+        colors = {
+            "Tom": "#ff6f6f",
+            "Marion": "#5effaa",
+            "Victor": "#5e8fff"
+        }
+
         svg.selectAll(".bar")
             .data(count_musics)
             .enter().append("rect")
-            .style("fill", d => colors(d.i))
+            .style("fill", d => colors[d.name])
             .attr("class", "bar")
             .attr("x", d => x(d.name))
             .attr("width", x.bandwidth())

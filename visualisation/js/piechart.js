@@ -1,4 +1,3 @@
-
 function draw_pie() {
     d3.json("../data/genre_count.json").then(function (d) {
         const data = d
@@ -118,7 +117,7 @@ function draw_pie() {
             .append('path')
             .attr('d', arc)
             .attr('fill', 'none')
-            .attr('stroke', d => d.data.color)
+            .attr('stroke', ({data: d}) => colorsGRAPH(d.name))
             .attr('stroke-width', strokeWidth * 0.7)
             .attr('stroke-linecap', 'round')
             .attr('stroke-linejoin', 'round')
@@ -138,7 +137,7 @@ function draw_pie() {
             })
             .attr('y1', 0)
             .attr('y2', 0)
-            .attr('stroke', ({data: d}) => d.color)
+            .attr('stroke', ({data: d}) => colorsGRAPH(d.name))
             .attr('stroke-width', 2)
             .attr('transform', (d) => {
                 const [x, y] = arc.centroid(d);
@@ -164,7 +163,7 @@ function draw_pie() {
                 return `translate(${x + offset} ${y})`;
             })
             .html(({data: d}) => `
-        <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${(d.percentage * 100).toFixed(2)}% / ${d.value}   </tspan>
+        <tspan class=custom_font x="0">${d.name}</tspan><tspan class=custom_font x="0" dy="14" font-size="11">${(d.percentage * 100).toFixed(2)}% / ${d.value}   </tspan>
       `)
             .style('opacity', 0)
             .style('visibility', 'hidden');
