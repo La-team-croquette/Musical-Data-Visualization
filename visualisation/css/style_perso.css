@@ -11,6 +11,10 @@ body {
 #svg_legend {
     /*background-color: rgba(100, 0, 0, 0.2);*/
 }
+#titre_repartition_donnees{
+    color:white;
+    padding-top: 2em;
+}
 
 .custom_font{
     font-family: Roboto, sans-serif;
