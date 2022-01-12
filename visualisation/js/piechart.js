@@ -164,7 +164,7 @@ function draw_pie() {
                 return `translate(${x + offset} ${y})`;
             })
             .html(({data: d}) => `
-        <tspan x="0">${d.name}</tspan><tspan x="0" dy="14" font-size="11">${(d.percentage * 100).toFixed(2)}% / ${d.value}   </tspan>
+        <tspan class=custom_font x="0">${d.name}</tspan><tspan class=custom_font x="0" dy="14" font-size="11">${(d.percentage * 100).toFixed(2)}% / ${d.value}   </tspan>
       `)
             .style('opacity', 0)
             .style('visibility', 'hidden');
