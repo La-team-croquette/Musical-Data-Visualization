@@ -22,9 +22,13 @@ https://developer.spotify.com/documentation/web-api/reference/#/
 
 ### Sources et inspirations
 
+https://observablehq.com/@nazareno/navegando-no-que-escutamos-no-spotify
 
+https://observablehq.com/@a-lexwein/alexs-most-streamed-artists-and-tracks-on-spotify
 
+https://observablehq.com/@bstaats/graph-visualization-introduction
 
+Merci de vous rendre sur nos Wiki pour plus d'informations 
 
 
  #### Réalisé par : Victor FAVRE | Jeremy KRITIKOS | Tom MONTAURIOL | Marion Vertessen
