@@ -1,5 +1,6 @@
-# Musical-Data-Visualization
+# Musical Data Visualization
 
+![thumbnail.png](thumbnail.png)
 
 
 This project aims at visualizing our music streaminc data from Spotify and responds to the following question : 
