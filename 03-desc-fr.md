@@ -28,7 +28,7 @@ https://observablehq.com/@a-lexwein/alexs-most-streamed-artists-and-tracks-on-sp
 
 https://observablehq.com/@bstaats/graph-visualization-introduction
 
-Merci de vous rendre sur nos Wiki pour plus d'informations 
+Merci de vous rendre sur notre Wiki pour plus d'informations 
 
 
  #### Réalisé par : Victor FAVRE | Jeremy KRITIKOS | Tom MONTAURIOL | Marion Vertessen
